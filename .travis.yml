@@ -15,7 +15,7 @@ install:
 script:
   # 运行hugo命令
   - hugo
-  - copy CHAME ./public
+  - cp CHAME ./public
 after_script:
   # 部署
   - cd ./public
