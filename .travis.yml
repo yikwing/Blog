@@ -15,7 +15,7 @@ install:
 script:
   # 运行hugo命令
   - hugo
-  # - cp CNAME ./public
+  - cp CNAME ./public
 after_script:
   # 部署
   - cd ./public
