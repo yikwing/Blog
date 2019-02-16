@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oneindex on yikwing`s Blog</title>
+    <link>https://yikwing.github.io/tags/oneindex/</link>
+    <description>Recent content in oneindex on yikwing`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 09:58:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://yikwing.github.io/tags/oneindex/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</title>
+      <link>https://yikwing.github.io/2019/oneindex/</link>
+      <pubDate>Tue, 22 Jan 2019 09:58:17 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/oneindex/</guid>
+      <description>宝塔 ```shell #Centos系统 yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; bash install.sh 这里只需要安装Nginx和</description>
+    </item>
+    
+  </channel>
+</rss>

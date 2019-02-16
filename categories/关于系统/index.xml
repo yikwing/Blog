@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>关于系统 on yikwing`s Blog</title>
+    <link>https://yikwing.github.io/categories/%E5%85%B3%E4%BA%8E%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 关于系统 on yikwing`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 03 Mar 2018 11:23:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://yikwing.github.io/categories/%E5%85%B3%E4%BA%8E%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mysql学习笔记</title>
+      <link>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 03 Mar 2018 11:23:16 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>安装MySql服务 mac shell brew install mysql linux ```shell sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s which zsh --- ## 修改密码 ```sql sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp; &amp;gt; use mysql &amp;gt; update user set authentication_string=p</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noodp"/>
+  <meta name="author" content="yikwing">
+  
+  
+  
+  
+  <link rel="next" href="https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
+  <link rel="canonical" href="https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>
+       
+       
+           MySql服务安装及命令使用 | yikwing`s Blog
+       
+  </title>
+  <meta name="title" content="MySql服务安装及命令使用 | yikwing`s Blog">
+    
+  
+  <link rel="stylesheet" href="/font/iconfont.css">
+  <link rel="stylesheet" href="/css/main.min.css">
+
+
+  
+  
+ 
+
+<script type="application/ld+json">
+ "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https://yikwing.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "MySql服务安装及命令使用",
+    "headline" : "MySql服务安装及命令使用",
+    "description" : "安装MySql服务 mac shell brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client 修改密码 ```sql sudo mysqld_safe &ndash;skin-grant-tables &ndash;skip-networking &amp; use mysql update user set authentication_string=password(&",
+    "inLanguage" : "zh-cn",
+    "author" : "yikwing",
+    "creator" : "yikwing",
+    "publisher": "yikwing",
+    "accountablePerson" : "yikwing",
+    "copyrightHolder" : "yikwing",
+    "copyrightYear" : "2018",
+    "datePublished": "2018-03-03 11:19:11 &#43;0000 UTC",
+    "dateModified" : "2018-03-03 11:19:11 &#43;0000 UTC",
+    "url" : "https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/",
+    "wordCount" : "405",
+    "keywords" : [ "hexo","sql","mysql", "yikwing`s Blog"]
+}
+</script>
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', '');
+</script>
+
+</head>
+
+  
+
+
+  <body class="">
+    <div class="wrapper">
+        <nav class="navbar">
+    <div class="container">
+        <div class="navbar-header header-logo">
+        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://yikwing.github.io">yikwing`s Blog</a>
+        </div>
+        <div class="menu navbar-right">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a class="menu-item" href="/about/" title=""></a>
+                
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+     <div class="container">
+        <div class="navbar-header">
+            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://yikwing.github.io">yikwing`s Blog</a></div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <a class="menu-item" href="/about/" title=""></a>
+                
+        </div>
+    </div>
+</nav>
+    	 <main class="main">
+          <div class="container">
+      		
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">MySql服务安装及命令使用</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://yikwing.github.io" rel="author">yikwing</a> with ♥ 
+                <span class="post-time">
+                on <time datetime=2018-03-03 itemprop="datePublished">March 3, 2018</time>
+                </span>
+                in
+                
+                <span class="post-word-count">, 405 words</span>
+        </div>
+    </header>
+    <div class="post-content">
+        
+
+        
+            
+        
+
+        
+        
+     
+          
+          
+          
+
+          
+          
+          
+
+          
+
+<h2 id="安装mysql服务">安装MySql服务</h2>
+
+<ul>
+<li>mac
+<code>shell
+brew install mysql
+</code></li>
+
+<li><p>linux</p>
+
+<pre><code class="language-shell">sudo apt-get insatll mysql-server
+sudo apt-get install mysql-client
+</code></pre>
+
+<hr />
+
+<h2 id="修改密码">修改密码</h2>
+
+<p>```sql</p></li>
+</ul>
+
+<p>sudo mysqld_safe &ndash;skin-grant-tables &ndash;skip-networking &amp;</p>
+
+<blockquote>
+<p>use mysql
+update user set authentication_string=password(&lsquo;新密码&rsquo;),
+plugin=&lsquo;mysql_native_password&rsquo; where user = &lsquo;root&rsquo;
+flush privileges
+quit</p>
+
+<pre><code>---
+
+
+
+## mysql设置远程访问
+1. sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
+2. 注释掉 '#bind-address       = 127.0.0.1'
+3. 进入mysql
+4. GRANT ALL PRIVILEGES ON *.* TO 'username'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
+5. flush PRIVILEGES
+6. 退出并重启mysql
+
+---
+
+## 启动MySql服务
+- mac 
+```shell
+# 启动mysql服务
+mysql.server start
+
+# 关闭mysql服务
+mysql.server stop
+
+#连接mysql数据库
+sudo mysql -h host(主机地址) -u user(用户名)  -p 
+</code></pre>
+
+<ul>
+<li><p>linux
+```</p>
+
+<h1 id="启动mysql服务">启动mysql服务</h1>
+
+<p>sudo service mysql start</p></li>
+</ul>
+
+<h1 id="关闭mysql服务">关闭mysql服务</h1>
+
+<p>sudo service mysql start</p>
+
+<p>#连接mysql数据库
+sudo mysql -u root(用户名) -p password(密码)</p>
+
+<h2 id="toc_4">```</h2>
+</blockquote>
+
+<h2 id="ssh远程连接">ssh远程连接</h2>
+
+<ol>
+<li>虚拟机使用桥接模式</li>
+<li>sudo apt-get install ssh</li>
+<li>ssh username@host</li>
+</ol>
+
+<hr />
+
+<h2 id="输入查询">输入查询</h2>
+
+<pre><code class="language-sql">SELECT VERSION(),CURRENT_DATE;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1238timestamp1438158105657.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<pre><code class="language-sql">SELECT SIN(PI()/4),(4+1)*5;
+
+# 如果你决定不想执行正在输入过程中的一个命令，输入`\c`取消它：
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1238timestamp1438158281502.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<h2 id="创建表">创建表</h2>
+
+<pre><code class="language-sql">mysql&gt; CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+    -&gt; species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+</code></pre>
+
+<h2 id="显示数据表">显示数据表</h2>
+
+<pre><code>mysql&gt; DESCRIBE pet;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1239timestamp1438163082069.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<hr />
+
+<h2 id="过滤数据表-distinct">过滤数据表(distinct)</h2>
+
+<pre><code class="language-sql">select distinct owner from pet;
+</code></pre>
+
+    </div>
+
+    <div class="post-copyright">
+             
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>yikwing </span>
+                </p>
+            
+           
+             
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</span>
+            </p>
+            
+             
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+  
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s): 
+            
+            <span class="tag"><a href="https://yikwing.github.io/tags/hexo/">
+                    #hexo</a></span>
+            
+            <span class="tag"><a href="https://yikwing.github.io/tags/sql/">
+                    #sql</a></span>
+            
+            <span class="tag"><a href="https://yikwing.github.io/tags/mysql/">
+                    #mysql</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> · 
+                <span><a href="https://yikwing.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+         
+        
+        <a href="https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="next" rel="next" title="Mysql学习笔记">Mysql学习笔记&nbsp;<i class="iconfont icon-right"></i></a>
+        
+    </div>
+
+    <div class="post-comment">
+          
+                 
+          
+        
+<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: location.pathname, 
+        distractionFreeMode: false 
+    });
+    (function () {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+            return;
+        }
+        gitalk.render('gitalk-container');
+    })();
+</script>
+
+    </div>
+</article>
+          </div>
+		   </main>
+      <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2017 - 2019</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i> 
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://yikwing.github.io">yikwing</a> | </span> 
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+  
+
+
+
+     </div>
+  </body>
+</html>

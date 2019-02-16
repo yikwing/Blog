@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on yikwing`s Blog</title>
+    <link>https://yikwing.github.io/posts/</link>
+    <description>Recent content in Posts on yikwing`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Jan 2019 09:58:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://yikwing.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</title>
+      <link>https://yikwing.github.io/2019/oneindex/</link>
+      <pubDate>Tue, 22 Jan 2019 09:58:17 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/oneindex/</guid>
+      <description>宝塔 ```shell #Centos系统 yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; bash install.sh 这里只需要安装Nginx和</description>
+    </item>
+    
+    <item>
+      <title>ubuntu从零开始搭建爬虫框架</title>
+      <link>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</link>
+      <pubDate>Sat, 03 Mar 2018 11:40:26 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</guid>
+      <description>更换ubuntu apt源 查看ubuntu开发代号 shell sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports</description>
+    </item>
+    
+    <item>
+      <title>scrapy语法</title>
+      <link>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Sat, 03 Mar 2018 11:37:26 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</guid>
+      <description>xpath语法 表达式 说明 article 选取所有article元素的所有子节点 /article 选取根元素article article/a 选取所有属于article的子元素的a元素 //div 选取</description>
+    </item>
+    
+    <item>
+      <title>Mysql学习笔记</title>
+      <link>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 03 Mar 2018 11:23:16 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>安装MySql服务 mac shell brew install mysql linux ```shell sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s which zsh --- ## 修改密码 ```sql sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp; &amp;gt; use mysql &amp;gt; update user set authentication_string=p</description>
+    </item>
+    
+    <item>
+      <title>MySql服务安装及命令使用</title>
+      <link>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sat, 03 Mar 2018 11:19:11 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</guid>
+      <description>安装MySql服务 mac shell brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client 修改密码 ```sql sudo mysqld_safe &amp;ndash;skin-grant-tables &amp;ndash;skip-networking &amp;amp; use mysql update user set authentication_string=password(&amp;</description>
+    </item>
+    
+  </channel>
+</rss>
