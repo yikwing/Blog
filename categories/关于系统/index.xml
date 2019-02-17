@@ -17,7 +17,7 @@
       <pubDate>Sat, 03 Mar 2018 11:23:16 +0000</pubDate>
       
       <guid>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-      <description>安装MySql服务 mac shell brew install mysql linux ```shell sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s which zsh --- ## 修改密码 ```sql sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp; &amp;gt; use mysql &amp;gt; update user set authentication_string=p</description>
+      <description>安装 MySql 服务 mac brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s `which zsh` 修改密码 sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp; &amp;gt; use mysql &amp;gt; update user set authentication_string=password(&#39;</description>
     </item>
     
   </channel>

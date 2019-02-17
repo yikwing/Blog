@@ -17,7 +17,7 @@
       <pubDate>Tue, 22 Jan 2019 09:58:17 +0000</pubDate>
       
       <guid>https://yikwing.github.io/2019/oneindex/</guid>
-      <description>宝塔 ```shell #Centos系统 yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; bash install.sh 这里只需要安装Nginx和</description>
+      <description>宝塔 #Centos系统 yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; bash install.sh 这里只需要安装 Nginx 和 php5.6 就可以了</description>
     </item>
     
   </channel>

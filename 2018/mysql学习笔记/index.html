@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "Mysql学习笔记",
     "headline" : "Mysql学习笔记",
-    "description" : "安装MySql服务 mac shell brew install mysql linux ```shell sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s which zsh --- ## 修改密码 ```sql sudo mysqld_safe --skin-grant-tables --skip-networking &amp; &gt; use mysql &gt; update user set authentication_string=p",
+    "description" : "安装 MySql 服务 mac brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client chsh -s `which zsh` 修改密码 sudo mysqld_safe --skin-grant-tables --skip-networking &amp; &gt; use mysql &gt; update user set authentication_string=password('",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
@@ -57,7 +57,7 @@
     "datePublished": "2018-03-03 11:23:16 &#43;0000 UTC",
     "dateModified" : "2018-03-03 11:23:16 &#43;0000 UTC",
     "url" : "https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/",
-    "wordCount" : "1426",
+    "wordCount" : "1347",
     "keywords" : [ "mysql", "yikwing`s Blog"]
 }
 </script>
@@ -142,7 +142,7 @@
                         <a href="https://yikwing.github.io/categories/%E5%85%B3%E4%BA%8E%E7%B3%BB%E7%BB%9F/"> 关于系统 </a>
                         
                 </span>
-                <span class="post-word-count">, 1426 words</span>
+                <span class="post-word-count">, 1347 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -165,25 +165,30 @@
 
           
 
-<h2 id="安装mysql服务">安装MySql服务</h2>
+<h2 id="安装-mysql-服务">安装 MySql 服务</h2>
 
 <ul>
-<li>mac
-<code>shell
-brew install mysql
-</code></li>
-<li>linux
-```shell
-sudo apt-get insatll mysql-server
-sudo apt-get install mysql-client</li>
+<li>mac</li>
 </ul>
 
-<p>chsh -s <code>which zsh</code></p>
+<pre><code class="language-shell">brew install mysql
+</code></pre>
 
-<pre><code>---
-## 修改密码
-```sql
+<ul>
+<li>linux</li>
+</ul>
 
+<pre><code class="language-shell">sudo apt-get insatll mysql-server
+sudo apt-get install mysql-client
+
+chsh -s `which zsh`
+</code></pre>
+
+<hr />
+
+<h2 id="修改密码">修改密码</h2>
+
+<pre><code class="language-sql">
 sudo mysqld_safe --skin-grant-tables --skip-networking &amp;
 
 &gt; use mysql
@@ -195,197 +200,270 @@ plugin='mysql_native_password' where user = 'root'
 
 <hr />
 
-<h2 id="启动mysql服务">启动MySql服务</h2>
+<h2 id="启动-mysql-服务">启动 MySql 服务</h2>
 
 <ul>
-<li><p>mac
-```shell</p>
-
-<h1 id="启动mysql服务-1">启动mysql服务</h1>
-
-<p>mysql.server start</p></li>
+<li>mac</li>
 </ul>
 
-<h1 id="关闭mysql服务">关闭mysql服务</h1>
+<pre><code class="language-shell"># 启动mysql服务
+mysql.server start
 
-<p>mysql.server stop</p>
+# 关闭mysql服务
+mysql.server stop
 
-<p>#连接mysql数据库
-sudo mysql -h host(主机地址) -u user(用户名)  -p</p>
-
-<pre><code>- linux
+#连接mysql数据库
+sudo mysql -h host(主机地址) -u user(用户名)  -p
 </code></pre>
 
-<h1 id="启动mysql服务-2">启动mysql服务</h1>
+<ul>
+<li>linux</li>
+</ul>
 
-<p>sudo service mysql start</p>
+<pre><code class="language-shell"># 启动mysql服务
+sudo service mysql start
 
-<h1 id="关闭mysql服务-1">关闭mysql服务</h1>
+# 关闭mysql服务
+sudo service mysql start
 
-<p>sudo service mysql start</p>
+#连接mysql数据库
+sudo mysql -u root(用户名) -p password(密码)
+</code></pre>
 
-<p>#连接mysql数据库
-sudo mysql -u root(用户名) -p password(密码)</p>
+<hr />
 
-<pre><code>---
-## SQL命令
-- 查看数据库
-```sql
-SHOW DATABASES;
+<h2 id="sql-命令">SQL 命令</h2>
+
+<ul>
+<li>查看数据库</li>
+</ul>
+
+<pre><code class="language-sql">SHOW DATABASES;
 </code></pre>
 
 <p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-01-04.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
 <ul>
-<li><p>删除数据库</p>
+<li>删除数据库</li>
+</ul>
 
 <pre><code class="language-sql">DROP DATABASE &lt;数据库名&gt;;
-</code></pre></li>
+</code></pre>
 
-<li><p>使用数据库</p>
+<ul>
+<li>使用数据库</li>
+</ul>
 
 <pre><code class="language-sql">use &lt;数据库名字&gt;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-01-05.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-01-05.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>查看表</p>
+<ul>
+<li>查看表</li>
+</ul>
 
 <pre><code class="language-sql">show tables;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-01-06.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-01-06.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>删除表</p>
+<ul>
+<li>删除表</li>
+</ul>
 
 <pre><code class="language-sql">DROP TABLE 表名字;
-</code></pre></li>
+</code></pre>
 
-<li><p>退出mysql</p>
+<ul>
+<li>退出 mysql</li>
+</ul>
 
 <pre><code class="language-sql">quit 或 exit
-</code></pre></li>
+</code></pre>
 
-<li><p>新建数据库</p>
+<ul>
+<li>新建数据库</li>
+</ul>
 
 <pre><code class="language-sql">CREATE DATABASE &lt;数据库名字&gt;;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-02-01.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-02-01.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>新建表</p>
+<ul>
+<li>新建表</li>
+</ul>
 
 <pre><code class="language-sql">CREATE TABLE &lt;表的名字&gt;(
-列名a 数据类型(数据长度),
-列名b 数据类型(数据长度)，
-列名c 数据类型(数据长度)
+    列名a 数据类型(数据长度),
+    列名b 数据类型(数据长度)，
+    列名c 数据类型(数据长度)
 );
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-02-04.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-02-04.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>插入表数据
-```sql
-INSERT INTO &lt;表名&gt;(列名a,列名b,列名c) VALUES(值a,值b,值c);</p></li>
+<ul>
+<li>插入表数据</li>
 </ul>
 
-<p>INSERT INTO &lt;表名&gt; VALUES(值a,值b,值c);</p>
+<pre><code class="language-sql">INSERT INTO &lt;表名&gt;(列名a,列名b,列名c) VALUES(值a,值b,值c);
 
-<p>INSERT INTO &lt;表名&gt;(列名a,列名c) VALUES(值a,值c);</p>
+INSERT INTO &lt;表名&gt; VALUES(值a,值b,值c);
 
-<pre><code>---
-## SQL约束
-
-主键 | 默认值 | 唯一 | 外键 | 非空 
----- | ---
-PRIMARY KEY | DEFAULT | UNIQUE  |FOREIGN KEY|NOT NULL 
-[------------&gt; SQL约束][6]
-
-- 导入外部sql文件
+INSERT INTO &lt;表名&gt;(列名a,列名c) VALUES(值a,值c);
 </code></pre>
 
-<p>source <sql路径></p>
+<hr />
 
-<pre><code>
-![此处输入图片的描述][7]
+<h2 id="sql-约束">SQL 约束</h2>
 
----
-## SELECT语句
-- 基本查询语句
-```sql
-SELECT &lt;列名&gt; FROM &lt;表名&gt; WHERE 限制条件;
+<table>
+<thead>
+<tr>
+<th>主键</th>
+<th>默认值</th>
+<th>唯一</th>
+<th>外键</th>
+<th>非空</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>PRIMARY KEY</td>
+<td>DEFAULT</td>
+<td>UNIQUE</td>
+<td>FOREIGN KEY</td>
+<td>NOT NULL</td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="https://www.shiyanlou.com/courses/running" rel="nofollow noreferrer" target="_blank">&mdash;&mdash;&mdash;&mdash;&gt; SQL 约束</a></p>
+
+<ul>
+<li>导入外部 sql 文件</li>
+</ul>
+
+<pre><code class="language-shell">source &lt;sql路径&gt;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://s13.postimg.org/97e98ezgn/Jietu20180115-113737_2x.jpg" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<hr />
+
+<h2 id="select-语句">SELECT 语句</h2>
+
+<ul>
+<li>基本查询语句</li>
+</ul>
+
+<pre><code class="language-sql">SELECT &lt;列名&gt; FROM &lt;表名&gt; WHERE 限制条件;
 </code></pre>
 
 <ul>
-<li>ADN 和 OR
-<code>sql
-SELECT * FROM &lt;表名&gt; WHERE age&gt;25 &lt;and|or&gt; are &lt;30;
-</code></li>
-<li>IN 和 NOT IN
-<code>sql
-SELECT * FROM &lt;表名&gt; WHERE &lt;列名&gt; IN ('Tom','Jack');
-</code></li>
+<li>ADN 和 OR</li>
+</ul>
 
-<li><p>通配符</p>
+<pre><code class="language-sql">SELECT * FROM &lt;表名&gt; WHERE age&gt;25 &lt;and|or&gt; are &lt;30;
+</code></pre>
+
+<ul>
+<li>IN 和 NOT IN</li>
+</ul>
+
+<pre><code class="language-sql">SELECT * FROM &lt;表名&gt; WHERE &lt;列名&gt; IN ('Tom','Jack');
+</code></pre>
+
+<ul>
+<li>通配符</li>
+</ul>
 
 <pre><code class="language-sql"># 其中 _ 代表一个未指定字符，% 代表不定个未指定.
 SELECT * FROM &lt;表名&gt; WHERE &lt;列名&gt; LIKE '1101__';
 SELECT * FROM &lt;表名&gt; WHERE &lt;列名&gt; LIKE 'J%';
-</code></pre></li>
+</code></pre>
 
-<li><p>对结果排序
-```sql</p>
-
-<h1 id="asc-升序">ASC 升序</h1>
-
-<p>SELECT * FROM &lt;表名&gt; ORDER BY &lt;列名&gt; ASC;</p></li>
+<ul>
+<li>对结果排序</li>
 </ul>
 
-<h1 id="desc-降序">DESC 降序</h1>
+<pre><code class="language-sql"># ASC 升序
+SELECT * FROM &lt;表名&gt; ORDER BY &lt;列名&gt; ASC;
 
-<p>SELECT * FROM &lt;表名&gt; ORDER BY &lt;列名&gt; DESC;</p>
+# DESC 降序
+SELECT * FROM &lt;表名&gt; ORDER BY &lt;列名&gt; DESC;
+</code></pre>
 
-<pre><code>-  SQL 内置函数和计算
+<ul>
+<li>SQL 内置函数和计算</li>
+</ul>
 
-函数名 |COUNT| SUM|AVG|MAX|MIN
---- | ---
-作用 |    计数| 求和| 求平均值    |最大值|   最小值
+<table>
+<thead>
+<tr>
+<th>函数名</th>
+<th>COUNT</th>
+<th>SUM</th>
+<th>AVG</th>
+<th>MAX</th>
+<th>MIN</th>
+</tr>
+</thead>
 
-```sql
-# AS关键词可以给值重命名
+<tbody>
+<tr>
+<td>作用</td>
+<td>计数</td>
+<td>求和</td>
+<td>求平均值</td>
+<td>最大值</td>
+<td>最小值</td>
+</tr>
+</tbody>
+</table>
+
+<pre><code class="language-sql"># AS关键词可以给值重命名
 SELECT MAX(salary) AS max_salary,MIN(salary) FROM &lt;表名&gt;;
 </code></pre>
 
 <ul>
-<li><p>子查询</p>
+<li>子查询</li>
+</ul>
 
 <pre><code class="language-sql">SELECT COUNT(proj_name) AS count_project FROM project
 WHERE of_dpt IN
 (SELECT in_dpt FROM employee WHERE name='Tom');
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-04-13.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-04-13.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>连接查询
-```sql
-SELECT id,name,people_num
-FROM employee,department
-WHERE employee.in_dpt = department.dpt_name
-ORDER BY id;</p></li>
+<ul>
+<li>连接查询</li>
 </ul>
 
-<hr />
+<pre><code class="language-sql">SELECT id,name,people_num
+FROM employee,department
+WHERE employee.in_dpt = department.dpt_name
+ORDER BY id;
 
-<p>SELECT id,name,people_num
+-----------------------------------------------------
+
+SELECT id,name,people_num
 FROM employee JOIN department
 ON employee.in_dpt = department.dpt_name
-ORDER BY id;</p>
+ORDER BY id;
+</code></pre>
 
-<pre><code>![此处输入图片的描述][9]
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-04-14.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-- 重命名表
-```sql
-RENAME TABLE 原名 TO 新名字;
+<ul>
+<li>重命名表</li>
+</ul>
+
+<pre><code class="language-sql">RENAME TABLE 原名 TO 新名字;
 
 ALTER TABLE 原名 RENAME 新名;
 
@@ -397,119 +475,139 @@ ALTER TABLE 原名 RENAME TO 新名;
 <h2 id="数据库及表的修改和删除">数据库及表的修改和删除</h2>
 
 <ul>
-<li><p>增加一列</p>
+<li>增加一列</li>
+</ul>
 
 <pre><code class="language-sql">ALTER TABLE 表名字 ADD COLUMN 列名字 数据类型 约束;
 或： ALTER TABLE 表名字 ADD 列名字 数据类型 约束;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-05.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-05.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>指定添加位置</p>
+<ul>
+<li>指定添加位置</li>
+</ul>
 
 <pre><code class="language-sql">ALTER TABLE 表名字 ADD 列名字 数据类型 约束 AFTER &lt;列名&gt;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-06.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-06.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>放在首行</p>
+<ul>
+<li>放在首行</li>
+</ul>
 
 <pre><code class="language-sql">ALTER TABLE 表名字 ADD 列名字 数据类型 约束 FIRST
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-07.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-07.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>删除一列</p>
+<ul>
+<li>删除一列</li>
+</ul>
 
-<pre><code>ALTER TABLE 表名字 DROP COLUMN 列名字;
+<pre><code class="language-sql">ALTER TABLE 表名字 DROP COLUMN 列名字;
 或： ALTER TABLE 表名字 DROP 列名字;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-08.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-08.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>重命名一列</p>
+<ul>
+<li>重命名一列</li>
+</ul>
 
 <pre><code class="language-sql">ALTER TABLE 表名字 CHANGE 原列名 新列名 数据类型 约束;
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-09.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-09.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<li><p>改变数据类型</p>
+<ul>
+<li>改变数据类型</li>
+</ul>
 
 <pre><code class="language-sql">ALTER TABLE 表名字 MODIFY 列名字 新数据类型;
 </code></pre>
 
 <hr />
 
-<h2 id="修改表的内容">修改表的内容</h2></li>
+<h2 id="修改表的内容">修改表的内容</h2>
 
-<li><p>修改表中的某个值</p>
-
-<pre><code>UPDATE 表名字 SET 列1=值1,列2=值2 WHERE 条件;
-</code></pre>
-
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-10.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
-
-<li><p>删除某一行记录</p>
-
-<pre><code>DELETE FROM 表名字 WHERE 条件;
-</code></pre>
-
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-11.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<ul>
+<li>修改表中的某个值</li>
 </ul>
+
+<pre><code class="language-sql">UPDATE 表名字 SET 列1=值1,列2=值2 WHERE 条件;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-10.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<ul>
+<li>删除某一行记录</li>
+</ul>
+
+<pre><code class="language-sql">DELETE FROM 表名字 WHERE 条件;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-05-11.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
 <h2 id="索引">索引</h2>
 
 <ul>
-<li>建立索引
-<code>
-ALTER TABLE 表名字 ADD INDEX 索引名 (列名);
-CREATE INDEX 索引名 ON 表名字 (列名);
-</code></li>
-
-<li><p>查看索引</p>
-
-<pre><code>show index from employee;
-</code></pre>
-
-<h2 id="视图">视图</h2></li>
-
-<li><p>建立视图</p>
-
-<pre><code>CREATE VIEW 视图名(列a,列b,列c) AS SELECT 列1,列2,列3 FROM 表名字;
-</code></pre></li>
-
-<li><p>查看视图</p>
-
-<pre><code>SELECT * FROM &lt;视图名&gt;
-</code></pre>
-
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-06-02.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p></li>
+<li>建立索引</li>
 </ul>
+
+<pre><code class="language-sql">ALTER TABLE 表名字 ADD INDEX 索引名 (列名);
+CREATE INDEX 索引名 ON 表名字 (列名);
+</code></pre>
+
+<ul>
+<li>查看索引</li>
+</ul>
+
+<pre><code class="language-sql">show index from employee;
+</code></pre>
+
+<h2 id="视图">视图</h2>
+
+<ul>
+<li>建立视图</li>
+</ul>
+
+<pre><code class="language-sql">CREATE VIEW 视图名(列a,列b,列c) AS SELECT 列1,列2,列3 FROM 表名字;
+</code></pre>
+
+<ul>
+<li>查看视图</li>
+</ul>
+
+<pre><code class="language-sql">SELECT * FROM &lt;视图名&gt;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-06-02.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
 <h2 id="导入">导入</h2>
 
-<pre><code>LOAD DATA INFILE '文件路径和文件名' INTO TABLE 表名字;
+<pre><code class="language-sql">LOAD DATA INFILE '文件路径和文件名' INTO TABLE 表名字;
 </code></pre>
 
 <p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/MySQL/sql-06-05.png/logoblackfont" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
 <h2 id="导出">导出</h2>
 
-<pre><code>SELECT 列1，列2 INTO OUTFILE '文件路径和文件名' FROM 表名字;
+<pre><code class="language-sql">SELECT 列1，列2 INTO OUTFILE '文件路径和文件名' FROM 表名字;
 
 SELECT * INTO OUTFILE '/tmp/out.txt' FROM employee;
 </code></pre>
 
 <h2 id="备份">备份</h2>
 
-<pre><code class="language-shell">mysqldump -u root 数据库名&gt;备份文件名;   #备份整个数据库
+<pre><code class="language-sql">mysqldump -u root 数据库名&gt;备份文件名;   #备份整个数据库
 mysqldump -u root 数据库名 表名字&gt;备份文件名;  #备份整个表
 </code></pre>
 
 <h2 id="恢复">恢复</h2>
 
-<pre><code>source &lt;SQL路径&gt;
+<pre><code class="language-sql">source &lt;SQL路径&gt;
 
 mysql -u root 新数据库名 &lt; bak.sql
 </code></pre>

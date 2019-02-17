@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
     "headline" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
-    "description" : "宝塔 ```shell #Centos系统 yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh 这里只需要安装Nginx和",
+    "description" : "宝塔 #Centos系统 yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh 这里只需要安装 Nginx 和 php5.6 就可以了",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
@@ -57,7 +57,7 @@
     "datePublished": "2019-01-22 09:58:17 &#43;0000 UTC",
     "dateModified" : "2019-01-22 09:58:17 &#43;0000 UTC",
     "url" : "https://yikwing.github.io/2019/oneindex/",
-    "wordCount" : "429",
+    "wordCount" : "378",
     "keywords" : [ "onedrive","oneindex", "yikwing`s Blog"]
 }
 </script>
@@ -138,7 +138,7 @@
                 </span>
                 in
                 
-                <span class="post-word-count">, 429 words</span>
+                <span class="post-word-count">, 378 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -157,83 +157,83 @@
           
           
 
-          
-
-<ul>
-<li>宝塔
-```shell
-#Centos系统
-yum install -y wget &amp;&amp; wget -O install.sh <a href="http://download.bt.cn/install/install.sh" rel="nofollow noreferrer" target="_blank">http://download.bt.cn/install/install.sh</a> &amp;&amp; sh install.sh</li>
+          <ul>
+<li>宝塔</li>
 </ul>
 
-<p>#Ubuntu系统
- wget -O install.sh <a href="http://download.bt.cn/install/install-ubuntu.sh" rel="nofollow noreferrer" target="_blank">http://download.bt.cn/install/install-ubuntu.sh</a> &amp;&amp; sudo bash install.sh</p>
+<pre><code class="language-shell">#Centos系统
+yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh
 
-<p>#Debian系统
- wget -O install.sh <a href="http://download.bt.cn/install/install-ubuntu.sh" rel="nofollow noreferrer" target="_blank">http://download.bt.cn/install/install-ubuntu.sh</a> &amp;&amp; bash install.sh</p>
+#Ubuntu系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh
 
-<pre><code>
- 这里只需要安装Nginx和php5.6就可以了，其他FTP，Mysql不需要
- 
- - 安装Aria2
- ```shell
- wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
- #备用地址
- wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
+#Debian系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
 </code></pre>
 
-<p>选择1，安装aria2后一路yes就可以了。最后会出来一个密钥，记下来</p>
+<p>这里只需要安装 Nginx 和 php5.6 就可以了，其他 FTP，Mysql 不需要</p>
 
 <ul>
-<li><p>安装ArinanNG和oneindex
-```shell</p>
-
-<h1 id="ng">NG</h1>
-
-<p><a href="https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip" rel="nofollow noreferrer" target="_blank">https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip</a></p></li>
+<li>安装 Aria2</li>
 </ul>
 
-<p># oneIndex
- <a href="https://github.com/donwa/oneindex/archive/master.zip" rel="nofollow noreferrer" target="_blank">https://github.com/donwa/oneindex/archive/master.zip</a></p>
-
-<pre><code>
- - 编辑配置文件
- ```shell
- dir=/Download
- on-download-complete=/root/upload2one.sh
+<pre><code class="language-shell">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
+#备用地址
+wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
 </code></pre>
 
-<p>自动上传OneDrive</p>
+<p>选择 1，安装 aria2 后一路 yes 就可以了。最后会出来一个密钥，记下来</p>
 
-<pre><code> #!/bin/bash
+<ul>
+<li>安装 ArinanNG 和 oneindex</li>
+</ul>
+
+<pre><code class="language-shell"># NG
+https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip
+
+# oneIndex
+https://github.com/donwa/oneindex/archive/master.zip
+</code></pre>
+
+<ul>
+<li>编辑配置文件</li>
+</ul>
+
+<pre><code class="language-shell">dir=/Download
+on-download-complete=/root/upload2one.sh
+</code></pre>
+
+<p>自动上传 OneDrive</p>
+
+<pre><code class="language-shell">#!/bin/bash
 path=$3
 downloadpath='/Download'
 if [[ $2 -eq 0 ]]
-        then
-                exit 0
+       then
+               exit 0
 fi
 while true; do  #提取下载文件根路径，如把/root/downloads/a/b/c/d.jpg变成/root/downloads/a
 filepath=$path
 path=${path%/*};
 if [ &quot;$path&quot; = &quot;$downloadpath&quot; ] &amp;&amp; [ $2 -eq 1 ]  #如果下载的是单个文件
-    then
-    /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &quot;$filepath&quot; /upload/
-    rm -rf &quot;$filepath&quot;
-    exit 0
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &quot;$filepath&quot; /upload/
+   rm -rf &quot;$filepath&quot;
+   exit 0
 elif [ &quot;$path&quot; = &quot;$downloadpath&quot; ]   #文件夹
-    then
-    /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &quot;$filepath&quot;/ /upload/&quot;${filepath##*/}&quot;/
-    rm -rf &quot;$filepath&quot;/
-    exit 0
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &quot;$filepath&quot;/ /upload/&quot;${filepath##*/}&quot;/
+   rm -rf &quot;$filepath&quot;/
+   exit 0
 fi
 done
 </code></pre>
 
-<p>赋予权限,重启aria2NG</p>
+<p>赋予权限,重启 aria2NG</p>
 
-<pre><code> chmod +x /root/upload2one.sh
+<pre><code class="language-shell">chmod +x /root/upload2one.sh
 
- ./aria2.sh
+./aria2.sh
 </code></pre>
 
     </div>

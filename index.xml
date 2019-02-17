@@ -20,31 +20,30 @@
 &lt;h1 id=&#34;联系方式&#34;&gt;联系方式&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;手机：&lt;/li&gt;
-&lt;li&gt;Email：&lt;/li&gt;
-&lt;li&gt;微信：&lt;/li&gt;
+&lt;li&gt;姓名：荣毅&lt;/li&gt;
+&lt;li&gt;手机：18664379256&lt;/li&gt;
+&lt;li&gt;Email：yikwing14@126.com&lt;/li&gt;
+&lt;li&gt;微信：yikwing&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;个人信息&#34;&gt;个人信息&lt;/h1&gt;
 
 &lt;ul&gt;
-&lt;li&gt;姓名/性别/出生日期&lt;/li&gt;
-&lt;li&gt;本科/xxx 计算机系 xxx 专业/英语六级&lt;/li&gt;
-&lt;li&gt;技术博客：&lt;a href=&#34;http://snailclimb.top/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://snailclimb.top/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;荣誉奖励：获得了什么奖（获奖时间）&lt;/li&gt;
-&lt;li&gt;Github：&lt;a href=&#34;https://github.com/Snailclimb&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/Snailclimb &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Github Resume: &lt;a href=&#34;http://resume.github.io/?Snailclimb&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://resume.github.io/?Snailclimb&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;期望职位：Java 研发程序员/大数据工程师(Java 后台开发为首选)&lt;/li&gt;
-&lt;li&gt;期望城市：xxx 城市&lt;/li&gt;
+&lt;li&gt;技术博客：&lt;a href=&#34;http://yikwing.github.io/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://yikwing.github.io/&lt;/a&gt;
+&lt;!-- - 荣誉奖励：获得了什么奖（获奖时间） --&gt;&lt;/li&gt;
+&lt;li&gt;Github：&lt;a href=&#34;https://github.com/yikwing&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/yikwing &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;期望职位：Android 开发&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&#34;项目经历&#34;&gt;项目经历&lt;/h1&gt;
 
-&lt;h2 id=&#34;xxx-项目&#34;&gt;xxx 项目&lt;/h2&gt;
+&lt;h2 id=&#34;追求体育-项目&#34;&gt;追求体育 项目&lt;/h2&gt;
 
 &lt;h3 id=&#34;项目描述&#34;&gt;项目描述&lt;/h3&gt;
 
-&lt;p&gt;介绍该项目是做什么的、使用到了什么技术以及你对项目整体设计的一个感受&lt;/p&gt;
+&lt;!-- 介绍该项目是做什么的、使用到了什么技术以及你对项目整体设计的一个感受 --&gt;
+
+&lt;p&gt;追球体育是一个利用 Weex 技术实现三端开发,大大提高开发时间.&lt;/p&gt;
 
 &lt;h3 id=&#34;责任描述&#34;&gt;责任描述&lt;/h3&gt;
 
@@ -73,15 +72,15 @@
 &lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5b260ec26fb9a00e8e4b031a&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;可能是把 Docker 的概念讲的最清楚的一篇文章&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;校园经历-可选&#34;&gt;校园经历（可选）&lt;/h1&gt;
+&lt;!-- # 校园经历（可选）
 
-&lt;h2 id=&#34;2016-2017&#34;&gt;2016-2017&lt;/h2&gt;
+## 2016-2017
 
-&lt;p&gt;担任学校社团-致深社副会长，主要负责团队每周活动的组建以及每周例会的主持。&lt;/p&gt;
+担任学校社团-致深社副会长，主要负责团队每周活动的组建以及每周例会的主持。
 
-&lt;h2 id=&#34;2017-2018&#34;&gt;2017-2018&lt;/h2&gt;
+## 2017-2018
 
-&lt;p&gt;担任学校传媒组织：“长江大学在线信息传媒”的副站长以及安卓组成员。主要负责每周例会主持、活动策划以及学校校园通 APP 的研发工作。&lt;/p&gt;
+担任学校传媒组织：“长江大学在线信息传媒”的副站长以及安卓组成员。主要负责每周例会主持、活动策划以及学校校园通 APP 的研发工作。 --&gt;
 
 &lt;h1 id=&#34;技能清单&#34;&gt;技能清单&lt;/h1&gt;
 
@@ -112,83 +111,83 @@
       <pubDate>Tue, 22 Jan 2019 09:58:17 +0000</pubDate>
       
       <guid>https://yikwing.github.io/2019/oneindex/</guid>
-      <description>
-
-&lt;ul&gt;
-&lt;li&gt;宝塔
-```shell
-#Centos系统
-yum install -y wget &amp;amp;&amp;amp; wget -O install.sh &lt;a href=&#34;http://download.bt.cn/install/install.sh&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://download.bt.cn/install/install.sh&lt;/a&gt; &amp;amp;&amp;amp; sh install.sh&lt;/li&gt;
+      <description>&lt;ul&gt;
+&lt;li&gt;宝塔&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;#Ubuntu系统
- wget -O install.sh &lt;a href=&#34;http://download.bt.cn/install/install-ubuntu.sh&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://download.bt.cn/install/install-ubuntu.sh&lt;/a&gt; &amp;amp;&amp;amp; sudo bash install.sh&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;#Centos系统
+yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;amp;&amp;amp; sh install.sh
 
-&lt;p&gt;#Debian系统
- wget -O install.sh &lt;a href=&#34;http://download.bt.cn/install/install-ubuntu.sh&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://download.bt.cn/install/install-ubuntu.sh&lt;/a&gt; &amp;amp;&amp;amp; bash install.sh&lt;/p&gt;
+#Ubuntu系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; sudo bash install.sh
 
-&lt;pre&gt;&lt;code&gt;
- 这里只需要安装Nginx和php5.6就可以了，其他FTP，Mysql不需要
- 
- - 安装Aria2
- ```shell
- wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; bash aria2.sh
- #备用地址
- wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; bash aria2.sh
+#Debian系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;amp;&amp;amp; bash install.sh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;选择1，安装aria2后一路yes就可以了。最后会出来一个密钥，记下来&lt;/p&gt;
+&lt;p&gt;这里只需要安装 Nginx 和 php5.6 就可以了，其他 FTP，Mysql 不需要&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;安装ArinanNG和oneindex
-```shell&lt;/p&gt;
-
-&lt;h1 id=&#34;ng&#34;&gt;NG&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;安装 Aria2&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;# oneIndex
- &lt;a href=&#34;https://github.com/donwa/oneindex/archive/master.zip&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/donwa/oneindex/archive/master.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
- - 编辑配置文件
- ```shell
- dir=/Download
- on-download-complete=/root/upload2one.sh
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; bash aria2.sh
+#备用地址
+wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;amp;&amp;amp; chmod +x aria2.sh &amp;amp;&amp;amp; bash aria2.sh
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;自动上传OneDrive&lt;/p&gt;
+&lt;p&gt;选择 1，安装 aria2 后一路 yes 就可以了。最后会出来一个密钥，记下来&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; #!/bin/bash
+&lt;ul&gt;
+&lt;li&gt;安装 ArinanNG 和 oneindex&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# NG
+https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip
+
+# oneIndex
+https://github.com/donwa/oneindex/archive/master.zip
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;编辑配置文件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;dir=/Download
+on-download-complete=/root/upload2one.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;自动上传 OneDrive&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;#!/bin/bash
 path=$3
 downloadpath=&#39;/Download&#39;
 if [[ $2 -eq 0 ]]
-        then
-                exit 0
+       then
+               exit 0
 fi
 while true; do  #提取下载文件根路径，如把/root/downloads/a/b/c/d.jpg变成/root/downloads/a
 filepath=$path
 path=${path%/*};
 if [ &amp;quot;$path&amp;quot; = &amp;quot;$downloadpath&amp;quot; ] &amp;amp;&amp;amp; [ $2 -eq 1 ]  #如果下载的是单个文件
-    then
-    /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &amp;quot;$filepath&amp;quot; /upload/
-    rm -rf &amp;quot;$filepath&amp;quot;
-    exit 0
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &amp;quot;$filepath&amp;quot; /upload/
+   rm -rf &amp;quot;$filepath&amp;quot;
+   exit 0
 elif [ &amp;quot;$path&amp;quot; = &amp;quot;$downloadpath&amp;quot; ]   #文件夹
-    then
-    /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &amp;quot;$filepath&amp;quot;/ /upload/&amp;quot;${filepath##*/}&amp;quot;/
-    rm -rf &amp;quot;$filepath&amp;quot;/
-    exit 0
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &amp;quot;$filepath&amp;quot;/ /upload/&amp;quot;${filepath##*/}&amp;quot;/
+   rm -rf &amp;quot;$filepath&amp;quot;/
+   exit 0
 fi
 done
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;赋予权限,重启aria2NG&lt;/p&gt;
+&lt;p&gt;赋予权限,重启 aria2NG&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt; chmod +x /root/upload2one.sh
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;chmod +x /root/upload2one.sh
 
- ./aria2.sh
+./aria2.sh
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
@@ -201,15 +200,16 @@ done
       <guid>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</guid>
       <description>
 
-&lt;h2 id=&#34;更换ubuntu-apt源&#34;&gt;更换ubuntu apt源&lt;/h2&gt;
+&lt;h2 id=&#34;更换-ubuntu-apt-源&#34;&gt;更换 ubuntu apt 源&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;查看ubuntu开发代号
-&lt;code&gt;shell
-sudo lsb_release -a
-&lt;/code&gt;
-&lt;img src=&#34;https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;查看 ubuntu 开发代号&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo lsb_release -a
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;## linux路径
 sudo vim  /etc/apt/sources.list
@@ -227,26 +227,27 @@ deb-src http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted unive
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;安装扩展插件
-```shell
-sudo apt-get install python3-dev
-sudo apt-get install python3-pip
-sudo apt-get install virtualenv&lt;/li&gt;
+&lt;li&gt;安装扩展插件&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;pip3-安装插件报错&#34;&gt;pip3 安装插件报错&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get install python3-dev
+sudo apt-get install python3-pip
+sudo apt-get install virtualenv
 
-&lt;p&gt;export LC_ALL=C&lt;/p&gt;
+# pip3 安装插件报错
+export LC_ALL=C
 
-&lt;p&gt;virtualenv -p /usr/bin/python3 py3env
-source ./py3env/bin/activite&lt;/p&gt;
+virtualenv -p /usr/bin/python3 py3env
+source ./py3env/bin/activite
 
-&lt;p&gt;pip3 install gerapy&lt;/p&gt;
+pip3 install gerapy
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;
-- 安装scrapyd
-```shell
-pip3 install scrapyd
+&lt;ul&gt;
+&lt;li&gt;安装 scrapyd&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;pip3 install scrapyd
 pip3 install scrapyd-client
 
 sudo vim /etc/scrapyd/scrapyd.conf
@@ -284,17 +285,17 @@ daemonstatus.json = scrapyd.webservice.DaemonStatus
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;启动gerapy
-```shell
-gerapy init&lt;/li&gt;
+&lt;li&gt;启动 gerapy&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;cd gerapy
-gerapy migrate&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;gerapy init
 
-&lt;p&gt;gerapy runserver
+cd gerapy
+gerapy migrate
+
+gerapy runserver
 gerapy runserver 0.0.0.0:8888
-```&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -306,7 +307,7 @@ gerapy runserver 0.0.0.0:8888
       <guid>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</guid>
       <description>
 
-&lt;h2 id=&#34;xpath语法&#34;&gt;xpath语法&lt;/h2&gt;
+&lt;h2 id=&#34;xpath-语法&#34;&gt;xpath 语法&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -319,37 +320,37 @@ gerapy runserver 0.0.0.0:8888
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;article&lt;/td&gt;
-&lt;td&gt;选取所有article元素的所有子节点&lt;/td&gt;
+&lt;td&gt;选取所有 article 元素的所有子节点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;/article&lt;/td&gt;
-&lt;td&gt;选取根元素article&lt;/td&gt;
+&lt;td&gt;选取根元素 article&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;article/a&lt;/td&gt;
-&lt;td&gt;选取所有属于article的子元素的a元素&lt;/td&gt;
+&lt;td&gt;选取所有属于 article 的子元素的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//div&lt;/td&gt;
-&lt;td&gt;选取所有div子元素&lt;/td&gt;
+&lt;td&gt;选取所有 div 子元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;article//div&lt;/td&gt;
-&lt;td&gt;选取所有属于article元素的后代div元素&lt;/td&gt;
+&lt;td&gt;选取所有属于 article 元素的后代 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//@class&lt;/td&gt;
-&lt;td&gt;选取所有名为class的属性&lt;/td&gt;
+&lt;td&gt;选取所有名为 class 的属性&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;xpath语法-谓语&#34;&gt;xpath语法-谓语&lt;/h2&gt;
+&lt;h2 id=&#34;xpath-语法-谓语&#34;&gt;xpath 语法-谓语&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -362,32 +363,32 @@ gerapy runserver 0.0.0.0:8888
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;/article/div[1]&lt;/td&gt;
-&lt;td&gt;选取属于article子元素的第一个div元素&lt;/td&gt;
+&lt;td&gt;选取属于 article 子元素的第一个 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;/article/div[last()]&lt;/td&gt;
-&lt;td&gt;选取属于article子元素的最后一个div元素&lt;/td&gt;
+&lt;td&gt;选取属于 article 子元素的最后一个 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;/article/div[last()]&lt;/td&gt;
-&lt;td&gt;选取属于article子元素的倒数第二个div元素&lt;/td&gt;
+&lt;td&gt;选取属于 article 子元素的倒数第二个 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//div[@lang]&lt;/td&gt;
-&lt;td&gt;选取所有拥有lang属性的div元素&lt;/td&gt;
+&lt;td&gt;选取所有拥有 lang 属性的 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//div[@lang=&amp;lsquo;eng&amp;rsquo;]&lt;/td&gt;
-&lt;td&gt;选取所有lang属性为eng的div元素&lt;/td&gt;
+&lt;td&gt;选取所有 lang 属性为 eng 的 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;xpath语法-其他&#34;&gt;xpath语法-其他&lt;/h2&gt;
+&lt;h2 id=&#34;xpath-语法-其他&#34;&gt;xpath 语法-其他&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -400,7 +401,7 @@ gerapy runserver 0.0.0.0:8888
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;/div/*&lt;/td&gt;
-&lt;td&gt;选取属于div元素的所有子节点&lt;/td&gt;
+&lt;td&gt;选取属于 div 元素的所有子节点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -410,22 +411,22 @@ gerapy runserver 0.0.0.0:8888
 
 &lt;tr&gt;
 &lt;td&gt;//div[@*]&lt;/td&gt;
-&lt;td&gt;选取所有带属性的div元素&lt;/td&gt;
+&lt;td&gt;选取所有带属性的 div 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//div/a | //div/p&lt;/td&gt;
-&lt;td&gt;选取所有div元素的a和p元素&lt;/td&gt;
+&lt;td&gt;选取所有 div 元素的 a 和 p 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;//span | //ul&lt;/td&gt;
-&lt;td&gt;选取文档中的span和ul元素&lt;/td&gt;
+&lt;td&gt;选取文档中的 span 和 ul 元素&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;css选择器&#34;&gt;css选择器&lt;/h2&gt;
+&lt;h2 id=&#34;css-选择器&#34;&gt;css 选择器&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -443,32 +444,32 @@ gerapy runserver 0.0.0.0:8888
 
 &lt;tr&gt;
 &lt;td&gt;#contriner&lt;/td&gt;
-&lt;td&gt;选择id为contriner的节点&lt;/td&gt;
+&lt;td&gt;选择 id 为 contriner 的节点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;.container&lt;/td&gt;
-&lt;td&gt;选取所有class包含container的节点&lt;/td&gt;
+&lt;td&gt;选取所有 class 包含 container 的节点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;li a&lt;/td&gt;
-&lt;td&gt;选取所有li下的所有a节点&lt;/td&gt;
+&lt;td&gt;选取所有 li 下的所有 a 节点&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;ul + p&lt;/td&gt;
-&lt;td&gt;选择ul后面的第一个p元素&lt;/td&gt;
+&lt;td&gt;选择 ul 后面的第一个 p 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;div#container &amp;gt; ul&lt;/td&gt;
-&lt;td&gt;选取id为container的div的第一个ul子元素&lt;/td&gt;
+&lt;td&gt;选取 id 为 container 的 div 的第一个 ul 子元素&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;css选择器进阶&#34;&gt;css选择器进阶&lt;/h2&gt;
+&lt;h2 id=&#34;css-选择器进阶&#34;&gt;css 选择器进阶&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -481,52 +482,52 @@ gerapy runserver 0.0.0.0:8888
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;ul ~ p&lt;/td&gt;
-&lt;td&gt;选取与ul相邻的所有p元素&lt;/td&gt;
+&lt;td&gt;选取与 ul 相邻的所有 p 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;a[title]&lt;/td&gt;
-&lt;td&gt;选取所有有title属性的a元素&lt;/td&gt;
+&lt;td&gt;选取所有有 title 属性的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;a[href=&amp;ldquo;xxx&amp;rdquo;]&lt;/td&gt;
-&lt;td&gt;选取所有href属性为xxx值的a元素&lt;/td&gt;
+&lt;td&gt;选取所有 href 属性为 xxx 值的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;a[href*=&amp;ldquo;xxx&amp;rdquo;]&lt;/td&gt;
-&lt;td&gt;选取所有href属性包含xxx的a元素&lt;/td&gt;
+&lt;td&gt;选取所有 href 属性包含 xxx 的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;a[href^=&amp;ldquo;xxx&amp;rdquo;]&lt;/td&gt;
-&lt;td&gt;选择所有href属性以xxx开头的a元素&lt;/td&gt;
+&lt;td&gt;选择所有 href 属性以 xxx 开头的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;a[href$=&amp;ldquo;.jpg&amp;rdquo;]&lt;/td&gt;
-&lt;td&gt;选取所有href属性以.jpg结尾的a元素&lt;/td&gt;
+&lt;td&gt;选取所有 href 属性以.jpg 结尾的 a 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;input[type=radio]:checked&lt;/td&gt;
-&lt;td&gt;选择选中的radio的元素&lt;/td&gt;
+&lt;td&gt;选择选中的 radio 的元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;div:not(#container)&lt;/td&gt;
-&lt;td&gt;选取所有id非container的div属性&lt;/td&gt;
+&lt;td&gt;选取所有 id 非 container 的 div 属性&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;li:nth-child(3)&lt;/td&gt;
-&lt;td&gt;选取第三个li元素&lt;/td&gt;
+&lt;td&gt;选取第三个 li 元素&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;tr:nth-child(2n)&lt;/td&gt;
-&lt;td&gt;第偶数个tr&lt;/td&gt;
+&lt;td&gt;第偶数个 tr&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -541,25 +542,30 @@ gerapy runserver 0.0.0.0:8888
       <guid>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description>
 
-&lt;h2 id=&#34;安装mysql服务&#34;&gt;安装MySql服务&lt;/h2&gt;
+&lt;h2 id=&#34;安装-mysql-服务&#34;&gt;安装 MySql 服务&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;mac
-&lt;code&gt;shell
-brew install mysql
-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;linux
-```shell
-sudo apt-get insatll mysql-server
-sudo apt-get install mysql-client&lt;/li&gt;
+&lt;li&gt;mac&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;chsh -s &lt;code&gt;which zsh&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;brew install mysql
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;---
-## 修改密码
-```sql
+&lt;ul&gt;
+&lt;li&gt;linux&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get insatll mysql-server
+sudo apt-get install mysql-client
+
+chsh -s `which zsh`
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;修改密码&#34;&gt;修改密码&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;
 sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp;
 
 &amp;gt; use mysql
@@ -571,197 +577,270 @@ plugin=&#39;mysql_native_password&#39; where user = &#39;root&#39;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;启动mysql服务&#34;&gt;启动MySql服务&lt;/h2&gt;
+&lt;h2 id=&#34;启动-mysql-服务&#34;&gt;启动 MySql 服务&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;mac
-```shell&lt;/p&gt;
-
-&lt;h1 id=&#34;启动mysql服务-1&#34;&gt;启动mysql服务&lt;/h1&gt;
-
-&lt;p&gt;mysql.server start&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;mac&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;关闭mysql服务&#34;&gt;关闭mysql服务&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# 启动mysql服务
+mysql.server start
 
-&lt;p&gt;mysql.server stop&lt;/p&gt;
+# 关闭mysql服务
+mysql.server stop
 
-&lt;p&gt;#连接mysql数据库
-sudo mysql -h host(主机地址) -u user(用户名)  -p&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;- linux
+#连接mysql数据库
+sudo mysql -h host(主机地址) -u user(用户名)  -p
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;启动mysql服务-2&#34;&gt;启动mysql服务&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;linux&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;sudo service mysql start&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# 启动mysql服务
+sudo service mysql start
 
-&lt;h1 id=&#34;关闭mysql服务-1&#34;&gt;关闭mysql服务&lt;/h1&gt;
+# 关闭mysql服务
+sudo service mysql start
 
-&lt;p&gt;sudo service mysql start&lt;/p&gt;
+#连接mysql数据库
+sudo mysql -u root(用户名) -p password(密码)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;#连接mysql数据库
-sudo mysql -u root(用户名) -p password(密码)&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;pre&gt;&lt;code&gt;---
-## SQL命令
-- 查看数据库
-```sql
-SHOW DATABASES;
+&lt;h2 id=&#34;sql-命令&#34;&gt;SQL 命令&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;查看数据库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SHOW DATABASES;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-01-04.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;删除数据库&lt;/p&gt;
+&lt;li&gt;删除数据库&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;DROP DATABASE &amp;lt;数据库名&amp;gt;;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;使用数据库&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用数据库&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;use &amp;lt;数据库名字&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-01-05.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-01-05.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;查看表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看表&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;show tables;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-01-06.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-01-06.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;删除表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;删除表&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;DROP TABLE 表名字;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;退出mysql&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;退出 mysql&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;quit 或 exit
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;新建数据库&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建数据库&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CREATE DATABASE &amp;lt;数据库名字&amp;gt;;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-02-01.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-02-01.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;新建表&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新建表&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CREATE TABLE &amp;lt;表的名字&amp;gt;(
-列名a 数据类型(数据长度),
-列名b 数据类型(数据长度)，
-列名c 数据类型(数据长度)
+    列名a 数据类型(数据长度),
+    列名b 数据类型(数据长度)，
+    列名c 数据类型(数据长度)
 );
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-02-04.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-02-04.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;插入表数据
-```sql
-INSERT INTO &amp;lt;表名&amp;gt;(列名a,列名b,列名c) VALUES(值a,值b,值c);&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;插入表数据&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;INSERT INTO &amp;lt;表名&amp;gt; VALUES(值a,值b,值c);&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;INSERT INTO &amp;lt;表名&amp;gt;(列名a,列名b,列名c) VALUES(值a,值b,值c);
 
-&lt;p&gt;INSERT INTO &amp;lt;表名&amp;gt;(列名a,列名c) VALUES(值a,值c);&lt;/p&gt;
+INSERT INTO &amp;lt;表名&amp;gt; VALUES(值a,值b,值c);
 
-&lt;pre&gt;&lt;code&gt;---
-## SQL约束
-
-主键 | 默认值 | 唯一 | 外键 | 非空 
----- | ---
-PRIMARY KEY | DEFAULT | UNIQUE  |FOREIGN KEY|NOT NULL 
-[------------&amp;gt; SQL约束][6]
-
-- 导入外部sql文件
+INSERT INTO &amp;lt;表名&amp;gt;(列名a,列名c) VALUES(值a,值c);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;source &lt;sql路径&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;pre&gt;&lt;code&gt;
-![此处输入图片的描述][7]
+&lt;h2 id=&#34;sql-约束&#34;&gt;SQL 约束&lt;/h2&gt;
 
----
-## SELECT语句
-- 基本查询语句
-```sql
-SELECT &amp;lt;列名&amp;gt; FROM &amp;lt;表名&amp;gt; WHERE 限制条件;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;主键&lt;/th&gt;
+&lt;th&gt;默认值&lt;/th&gt;
+&lt;th&gt;唯一&lt;/th&gt;
+&lt;th&gt;外键&lt;/th&gt;
+&lt;th&gt;非空&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;PRIMARY KEY&lt;/td&gt;
+&lt;td&gt;DEFAULT&lt;/td&gt;
+&lt;td&gt;UNIQUE&lt;/td&gt;
+&lt;td&gt;FOREIGN KEY&lt;/td&gt;
+&lt;td&gt;NOT NULL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.shiyanlou.com/courses/running&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;gt; SQL 约束&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;导入外部 sql 文件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;source &amp;lt;sql路径&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://s13.postimg.org/97e98ezgn/Jietu20180115-113737_2x.jpg&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;select-语句&#34;&gt;SELECT 语句&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;基本查询语句&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT &amp;lt;列名&amp;gt; FROM &amp;lt;表名&amp;gt; WHERE 限制条件;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ADN 和 OR
-&lt;code&gt;sql
-SELECT * FROM &amp;lt;表名&amp;gt; WHERE age&amp;gt;25 &amp;lt;and|or&amp;gt; are &amp;lt;30;
-&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;IN 和 NOT IN
-&lt;code&gt;sql
-SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;列名&amp;gt; IN (&#39;Tom&#39;,&#39;Jack&#39;);
-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;ADN 和 OR&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;通配符&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT * FROM &amp;lt;表名&amp;gt; WHERE age&amp;gt;25 &amp;lt;and|or&amp;gt; are &amp;lt;30;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;IN 和 NOT IN&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;列名&amp;gt; IN (&#39;Tom&#39;,&#39;Jack&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;通配符&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;# 其中 _ 代表一个未指定字符，% 代表不定个未指定.
 SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;列名&amp;gt; LIKE &#39;1101__&#39;;
 SELECT * FROM &amp;lt;表名&amp;gt; WHERE &amp;lt;列名&amp;gt; LIKE &#39;J%&#39;;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;li&gt;&lt;p&gt;对结果排序
-```sql&lt;/p&gt;
-
-&lt;h1 id=&#34;asc-升序&#34;&gt;ASC 升序&lt;/h1&gt;
-
-&lt;p&gt;SELECT * FROM &amp;lt;表名&amp;gt; ORDER BY &amp;lt;列名&amp;gt; ASC;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;对结果排序&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;desc-降序&#34;&gt;DESC 降序&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;# ASC 升序
+SELECT * FROM &amp;lt;表名&amp;gt; ORDER BY &amp;lt;列名&amp;gt; ASC;
 
-&lt;p&gt;SELECT * FROM &amp;lt;表名&amp;gt; ORDER BY &amp;lt;列名&amp;gt; DESC;&lt;/p&gt;
+# DESC 降序
+SELECT * FROM &amp;lt;表名&amp;gt; ORDER BY &amp;lt;列名&amp;gt; DESC;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;-  SQL 内置函数和计算
+&lt;ul&gt;
+&lt;li&gt;SQL 内置函数和计算&lt;/li&gt;
+&lt;/ul&gt;
 
-函数名 |COUNT| SUM|AVG|MAX|MIN
---- | ---
-作用 |    计数| 求和| 求平均值    |最大值|   最小值
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;函数名&lt;/th&gt;
+&lt;th&gt;COUNT&lt;/th&gt;
+&lt;th&gt;SUM&lt;/th&gt;
+&lt;th&gt;AVG&lt;/th&gt;
+&lt;th&gt;MAX&lt;/th&gt;
+&lt;th&gt;MIN&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-```sql
-# AS关键词可以给值重命名
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;作用&lt;/td&gt;
+&lt;td&gt;计数&lt;/td&gt;
+&lt;td&gt;求和&lt;/td&gt;
+&lt;td&gt;求平均值&lt;/td&gt;
+&lt;td&gt;最大值&lt;/td&gt;
+&lt;td&gt;最小值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;# AS关键词可以给值重命名
 SELECT MAX(salary) AS max_salary,MIN(salary) FROM &amp;lt;表名&amp;gt;;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;子查询&lt;/p&gt;
+&lt;li&gt;子查询&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT COUNT(proj_name) AS count_project FROM project
 WHERE of_dpt IN
 (SELECT in_dpt FROM employee WHERE name=&#39;Tom&#39;);
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-04-13.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-04-13.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;连接查询
-```sql
-SELECT id,name,people_num
-FROM employee,department
-WHERE employee.in_dpt = department.dpt_name
-ORDER BY id;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;连接查询&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;hr /&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT id,name,people_num
+FROM employee,department
+WHERE employee.in_dpt = department.dpt_name
+ORDER BY id;
 
-&lt;p&gt;SELECT id,name,people_num
+-----------------------------------------------------
+
+SELECT id,name,people_num
 FROM employee JOIN department
 ON employee.in_dpt = department.dpt_name
-ORDER BY id;&lt;/p&gt;
+ORDER BY id;
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;![此处输入图片的描述][9]
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-04-14.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-- 重命名表
-```sql
-RENAME TABLE 原名 TO 新名字;
+&lt;ul&gt;
+&lt;li&gt;重命名表&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;RENAME TABLE 原名 TO 新名字;
 
 ALTER TABLE 原名 RENAME 新名;
 
@@ -773,119 +852,139 @@ ALTER TABLE 原名 RENAME TO 新名;
 &lt;h2 id=&#34;数据库及表的修改和删除&#34;&gt;数据库及表的修改和删除&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;增加一列&lt;/p&gt;
+&lt;li&gt;增加一列&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 ADD COLUMN 列名字 数据类型 约束;
 或： ALTER TABLE 表名字 ADD 列名字 数据类型 约束;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-05.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-05.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;指定添加位置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;指定添加位置&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 ADD 列名字 数据类型 约束 AFTER &amp;lt;列名&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-06.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-06.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;放在首行&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;放在首行&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 ADD 列名字 数据类型 约束 FIRST
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-07.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-07.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;删除一列&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;删除一列&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;ALTER TABLE 表名字 DROP COLUMN 列名字;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 DROP COLUMN 列名字;
 或： ALTER TABLE 表名字 DROP 列名字;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-08.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-08.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;重命名一列&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;重命名一列&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 CHANGE 原列名 新列名 数据类型 约束;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-09.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-09.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;改变数据类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;改变数据类型&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 MODIFY 列名字 新数据类型;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;修改表的内容&#34;&gt;修改表的内容&lt;/h2&gt;&lt;/li&gt;
+&lt;h2 id=&#34;修改表的内容&#34;&gt;修改表的内容&lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;修改表中的某个值&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;UPDATE 表名字 SET 列1=值1,列2=值2 WHERE 条件;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-10.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;删除某一行记录&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;DELETE FROM 表名字 WHERE 条件;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-11.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;修改表中的某个值&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;UPDATE 表名字 SET 列1=值1,列2=值2 WHERE 条件;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-10.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;删除某一行记录&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;DELETE FROM 表名字 WHERE 条件;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-05-11.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;索引&#34;&gt;索引&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;建立索引
-&lt;code&gt;
-ALTER TABLE 表名字 ADD INDEX 索引名 (列名);
-CREATE INDEX 索引名 ON 表名字 (列名);
-&lt;/code&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;查看索引&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;show index from employee;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;视图&#34;&gt;视图&lt;/h2&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;建立视图&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;CREATE VIEW 视图名(列a,列b,列c) AS SELECT 列1,列2,列3 FROM 表名字;
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;查看视图&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;SELECT * FROM &amp;lt;视图名&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-06-02.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;建立索引&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;ALTER TABLE 表名字 ADD INDEX 索引名 (列名);
+CREATE INDEX 索引名 ON 表名字 (列名);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;查看索引&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;show index from employee;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;视图&#34;&gt;视图&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;建立视图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;CREATE VIEW 视图名(列a,列b,列c) AS SELECT 列1,列2,列3 FROM 表名字;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;查看视图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT * FROM &amp;lt;视图名&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-06-02.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;导入&#34;&gt;导入&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;LOAD DATA INFILE &#39;文件路径和文件名&#39; INTO TABLE 表名字;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;LOAD DATA INFILE &#39;文件路径和文件名&#39; INTO TABLE 表名字;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/MySQL/sql-06-05.png/logoblackfont&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;导出&#34;&gt;导出&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;SELECT 列1，列2 INTO OUTFILE &#39;文件路径和文件名&#39; FROM 表名字;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;SELECT 列1，列2 INTO OUTFILE &#39;文件路径和文件名&#39; FROM 表名字;
 
 SELECT * INTO OUTFILE &#39;/tmp/out.txt&#39; FROM employee;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;备份&#34;&gt;备份&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mysqldump -u root 数据库名&amp;gt;备份文件名;   #备份整个数据库
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;mysqldump -u root 数据库名&amp;gt;备份文件名;   #备份整个数据库
 mysqldump -u root 数据库名 表名字&amp;gt;备份文件名;  #备份整个表
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;恢复&#34;&gt;恢复&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;source &amp;lt;SQL路径&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;source &amp;lt;SQL路径&amp;gt;
 
 mysql -u root 新数据库名 &amp;lt; bak.sql
 &lt;/code&gt;&lt;/pre&gt;
@@ -900,15 +999,18 @@ mysql -u root 新数据库名 &amp;lt; bak.sql
       <guid>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</guid>
       <description>
 
-&lt;h2 id=&#34;安装mysql服务&#34;&gt;安装MySql服务&lt;/h2&gt;
+&lt;h2 id=&#34;安装-mysql-服务&#34;&gt;安装 MySql 服务&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;mac
-&lt;code&gt;shell
-brew install mysql
-&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;mac&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;linux&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;brew install mysql
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;linux&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get insatll mysql-server
 sudo apt-get install mysql-client
@@ -918,65 +1020,64 @@ sudo apt-get install mysql-client
 
 &lt;h2 id=&#34;修改密码&#34;&gt;修改密码&lt;/h2&gt;
 
-&lt;p&gt;```sql&lt;/p&gt;&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;
+sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp;
+
+&amp;gt; use mysql
+&amp;gt; update user set authentication_string=password(&#39;新密码&#39;),
+plugin=&#39;mysql_native_password&#39; where user = &#39;root&#39;
+&amp;gt; flush privileges
+&amp;gt; quit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;mysql-设置远程访问&#34;&gt;mysql 设置远程访问&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf&lt;/li&gt;
+&lt;li&gt;注释掉 &amp;lsquo;#bind-address = 127.0.0.1&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;进入 mysql&lt;/li&gt;
+&lt;li&gt;GRANT ALL PRIVILEGES ON &lt;em&gt;.&lt;/em&gt; TO &amp;lsquo;username&amp;rsquo;@&amp;lsquo;%&amp;rsquo; IDENTIFIED BY &amp;lsquo;password&amp;rsquo; WITH GRANT OPTION;&lt;/li&gt;
+&lt;li&gt;flush PRIVILEGES&lt;/li&gt;
+&lt;li&gt;退出并重启 mysql&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;启动-mysql-服务&#34;&gt;启动 MySql 服务&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;mac&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;sudo mysqld_safe &amp;ndash;skin-grant-tables &amp;ndash;skip-networking &amp;amp;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;use mysql
-update user set authentication_string=password(&amp;lsquo;新密码&amp;rsquo;),
-plugin=&amp;lsquo;mysql_native_password&amp;rsquo; where user = &amp;lsquo;root&amp;rsquo;
-flush privileges
-quit&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;---
-
-
-
-## mysql设置远程访问
-1. sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf
-2. 注释掉 &#39;#bind-address       = 127.0.0.1&#39;
-3. 进入mysql
-4. GRANT ALL PRIVILEGES ON *.* TO &#39;username&#39;@&#39;%&#39; IDENTIFIED BY &#39;password&#39; WITH GRANT OPTION;
-5. flush PRIVILEGES
-6. 退出并重启mysql
-
----
-
-## 启动MySql服务
-- mac 
-```shell
-# 启动mysql服务
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# 启动mysql服务
 mysql.server start
 
 # 关闭mysql服务
 mysql.server stop
 
 #连接mysql数据库
-sudo mysql -h host(主机地址) -u user(用户名)  -p 
+sudo mysql -h host(主机地址) -u user(用户名)  -p
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;linux
-```&lt;/p&gt;
-
-&lt;h1 id=&#34;启动mysql服务&#34;&gt;启动mysql服务&lt;/h1&gt;
-
-&lt;p&gt;sudo service mysql start&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;linux&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;关闭mysql服务&#34;&gt;关闭mysql服务&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# 启动mysql服务
+sudo service mysql start
 
-&lt;p&gt;sudo service mysql start&lt;/p&gt;
+# 关闭mysql服务
+sudo service mysql start
 
-&lt;p&gt;#连接mysql数据库
-sudo mysql -u root(用户名) -p password(密码)&lt;/p&gt;
+#连接mysql数据库
+sudo mysql -u root(用户名) -p password(密码)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;toc_4&#34;&gt;```&lt;/h2&gt;
-&lt;/blockquote&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&#34;ssh远程连接&#34;&gt;ssh远程连接&lt;/h2&gt;
+&lt;h2 id=&#34;ssh-远程连接&#34;&gt;ssh 远程连接&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;虚拟机使用桥接模式&lt;/li&gt;
@@ -1008,7 +1109,7 @@ sudo mysql -u root(用户名) -p password(密码)&lt;/p&gt;
 
 &lt;h2 id=&#34;显示数据表&#34;&gt;显示数据表&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;mysql&amp;gt; DESCRIBE pet;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mysql&amp;gt; DESCRIBE pet;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dn-anything-about-doc.qbox.me/document-uid73259labid1239timestamp1438163082069.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10&#34; alt=&#34;此处输入图片的描述&#34; /&gt;&lt;/p&gt;

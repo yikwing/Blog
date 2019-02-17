@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "ubuntu从零开始搭建爬虫框架",
     "headline" : "ubuntu从零开始搭建爬虫框架",
-    "description" : "更换ubuntu apt源 查看ubuntu开发代号 shell sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports",
+    "description" : "更换 ubuntu apt 源 查看 ubuntu 开发代号 sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
@@ -57,7 +57,7 @@
     "datePublished": "2018-03-03 11:40:26 &#43;0000 UTC",
     "dateModified" : "2018-03-03 11:40:26 &#43;0000 UTC",
     "url" : "https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/",
-    "wordCount" : "267",
+    "wordCount" : "239",
     "keywords" : [ "linux","scrapy","gerapy", "yikwing`s Blog"]
 }
 </script>
@@ -138,7 +138,7 @@
                 </span>
                 in
                 
-                <span class="post-word-count">, 267 words</span>
+                <span class="post-word-count">, 239 words</span>
         </div>
     </header>
     <div class="post-content">
@@ -161,15 +161,16 @@
 
           
 
-<h2 id="更换ubuntu-apt源">更换ubuntu apt源</h2>
+<h2 id="更换-ubuntu-apt-源">更换 ubuntu apt 源</h2>
 
 <ul>
-<li>查看ubuntu开发代号
-<code>shell
-sudo lsb_release -a
-</code>
-<figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></li>
+<li>查看 ubuntu 开发代号</li>
 </ul>
+
+<pre><code class="language-shell">sudo lsb_release -a
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
 <pre><code class="language-shell">## linux路径
 sudo vim  /etc/apt/sources.list
@@ -187,26 +188,27 @@ deb-src http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted unive
 </code></pre>
 
 <ul>
-<li>安装扩展插件
-```shell
-sudo apt-get install python3-dev
-sudo apt-get install python3-pip
-sudo apt-get install virtualenv</li>
+<li>安装扩展插件</li>
 </ul>
 
-<h1 id="pip3-安装插件报错">pip3 安装插件报错</h1>
+<pre><code class="language-shell">sudo apt-get install python3-dev
+sudo apt-get install python3-pip
+sudo apt-get install virtualenv
 
-<p>export LC_ALL=C</p>
+# pip3 安装插件报错
+export LC_ALL=C
 
-<p>virtualenv -p /usr/bin/python3 py3env
-source ./py3env/bin/activite</p>
+virtualenv -p /usr/bin/python3 py3env
+source ./py3env/bin/activite
 
-<p>pip3 install gerapy</p>
+pip3 install gerapy
+</code></pre>
 
-<pre><code>
-- 安装scrapyd
-```shell
-pip3 install scrapyd
+<ul>
+<li>安装 scrapyd</li>
+</ul>
+
+<pre><code class="language-shell">pip3 install scrapyd
 pip3 install scrapyd-client
 
 sudo vim /etc/scrapyd/scrapyd.conf
@@ -244,17 +246,17 @@ daemonstatus.json = scrapyd.webservice.DaemonStatus
 </code></pre>
 
 <ul>
-<li>启动gerapy
-```shell
-gerapy init</li>
+<li>启动 gerapy</li>
 </ul>
 
-<p>cd gerapy
-gerapy migrate</p>
+<pre><code class="language-shell">gerapy init
 
-<p>gerapy runserver
+cd gerapy
+gerapy migrate
+
+gerapy runserver
 gerapy runserver 0.0.0.0:8888
-```</p>
+</code></pre>
 
     </div>
 

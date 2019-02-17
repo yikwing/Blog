@@ -17,7 +17,7 @@
       <pubDate>Sat, 03 Mar 2018 11:40:26 +0000</pubDate>
       
       <guid>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</guid>
-      <description>更换ubuntu apt源 查看ubuntu开发代号 shell sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports</description>
+      <description>更换 ubuntu apt 源 查看 ubuntu 开发代号 sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Sat, 03 Mar 2018 11:37:26 +0000</pubDate>
       
       <guid>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</guid>
-      <description>xpath语法 表达式 说明 article 选取所有article元素的所有子节点 /article 选取根元素article article/a 选取所有属于article的子元素的a元素 //div 选取</description>
+      <description>xpath 语法 表达式 说明 article 选取所有 article 元素的所有子节点 /article 选取根元素 article article/a 选取所有属于 article 的子元素的 a 元素 //div 选取所有 div 子元素 article//div 选取所有属于 article 元素的后代 div 元素</description>
     </item>
     
   </channel>
