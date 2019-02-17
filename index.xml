@@ -6,8 +6,105 @@
     <description>Recent content in yikwing`s Blog on yikwing`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Jan 2019 09:58:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://yikwing.github.io/about/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;联系方式&#34;&gt;联系方式&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;手机：&lt;/li&gt;
+&lt;li&gt;Email：&lt;/li&gt;
+&lt;li&gt;微信：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;个人信息&#34;&gt;个人信息&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;姓名/性别/出生日期&lt;/li&gt;
+&lt;li&gt;本科/xxx 计算机系 xxx 专业/英语六级&lt;/li&gt;
+&lt;li&gt;技术博客：&lt;a href=&#34;http://snailclimb.top/&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://snailclimb.top/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;荣誉奖励：获得了什么奖（获奖时间）&lt;/li&gt;
+&lt;li&gt;Github：&lt;a href=&#34;https://github.com/Snailclimb&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/Snailclimb &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github Resume: &lt;a href=&#34;http://resume.github.io/?Snailclimb&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;http://resume.github.io/?Snailclimb&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;期望职位：Java 研发程序员/大数据工程师(Java 后台开发为首选)&lt;/li&gt;
+&lt;li&gt;期望城市：xxx 城市&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;项目经历&#34;&gt;项目经历&lt;/h1&gt;
+
+&lt;h2 id=&#34;xxx-项目&#34;&gt;xxx 项目&lt;/h2&gt;
+
+&lt;h3 id=&#34;项目描述&#34;&gt;项目描述&lt;/h3&gt;
+
+&lt;p&gt;介绍该项目是做什么的、使用到了什么技术以及你对项目整体设计的一个感受&lt;/p&gt;
+
+&lt;h3 id=&#34;责任描述&#34;&gt;责任描述&lt;/h3&gt;
+
+&lt;p&gt;主要可以从下面三点来写：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;在这个项目中你负责了什么、做了什么、担任了什么角色&lt;/li&gt;
+&lt;li&gt;从这个项目中你学会了那些东西，使用到了那些技术，学会了那些新技术的使用&lt;/li&gt;
+&lt;li&gt;另外项目描述中，最好可以体现自己的综合素质，比如你是如何协调项目组成员协同开发的或者在遇到某一个棘手的问题的时候你是如何解决的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;开源项目和技术文章&#34;&gt;开源项目和技术文章&lt;/h1&gt;
+
+&lt;h2 id=&#34;开源项目&#34;&gt;开源项目&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Snailclimb/Java-Guide&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;Java-Guide&lt;/a&gt; ：一份涵盖大部分 Java 程序员所需要掌握的核心知识。Star:3.9K; Fork:0.9k。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;技术文章推荐&#34;&gt;技术文章推荐&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5b7d69e4e51d4538ca5730cb&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;可能是把 Java 内存区域讲的最清楚的一篇文章&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5b85ea54e51d4538dd08f601&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;搞定 JVM 垃圾回收就是这么简单&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5b3b19856fb9a04fa42f8c71&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;前端&amp;amp;后端程序员必备的 Linux 基础知识&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://juejin.im/post/5b260ec26fb9a00e8e4b031a&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;可能是把 Docker 的概念讲的最清楚的一篇文章&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;校园经历-可选&#34;&gt;校园经历（可选）&lt;/h1&gt;
+
+&lt;h2 id=&#34;2016-2017&#34;&gt;2016-2017&lt;/h2&gt;
+
+&lt;p&gt;担任学校社团-致深社副会长，主要负责团队每周活动的组建以及每周例会的主持。&lt;/p&gt;
+
+&lt;h2 id=&#34;2017-2018&#34;&gt;2017-2018&lt;/h2&gt;
+
+&lt;p&gt;担任学校传媒组织：“长江大学在线信息传媒”的副站长以及安卓组成员。主要负责每周例会主持、活动策划以及学校校园通 APP 的研发工作。&lt;/p&gt;
+
+&lt;h1 id=&#34;技能清单&#34;&gt;技能清单&lt;/h1&gt;
+
+&lt;p&gt;以下均为我熟练使用的技能&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web 开发：PHP/Hack/Node&lt;/li&gt;
+&lt;li&gt;Web 框架：ThinkPHP/Yaf/Yii/Lavarel/LazyPHP&lt;/li&gt;
+&lt;li&gt;前端框架：Bootstrap/AngularJS/EmberJS/HTML5/Cocos2dJS/ionic&lt;/li&gt;
+&lt;li&gt;前端工具：Bower/Gulp/SaSS/LeSS/PhoneGap&lt;/li&gt;
+&lt;li&gt;数据库相关：MySQL/PgSQL/PDO/SQLite&lt;/li&gt;
+&lt;li&gt;版本管理、文档和自动化部署工具：Svn/Git/PHPDoc/Phing/Composer&lt;/li&gt;
+&lt;li&gt;单元测试：PHPUnit/SimpleTest/Qunit&lt;/li&gt;
+&lt;li&gt;云和开放平台：SAE/BAE/AWS/微博开放平台/微信应用开发&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;自我评价-可选&#34;&gt;自我评价（可选）&lt;/h1&gt;
+
+&lt;p&gt;自我发挥。切记不要过度自夸！！！&lt;/p&gt;
+
+&lt;h3 id=&#34;感谢您花时间阅读我的简历-期待能有机会和您共事&#34;&gt;感谢您花时间阅读我的简历，期待能有机会和您共事。&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</title>
@@ -922,16 +1019,6 @@ sudo mysql -u root(用户名) -p password(密码)&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sql&#34;&gt;select distinct owner from pet;
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://yikwing.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://yikwing.github.io/about/</guid>
-      <description>&lt;p&gt;正在施工&amp;hellip;..&lt;/p&gt;
 </description>
     </item>
     
