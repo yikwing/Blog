@@ -8,12 +8,14 @@ date: 2018-03-03 11:40:26
 top:
 ---
 
-## 更换ubuntu apt源
+## 更换 ubuntu apt 源
 
-- 查看ubuntu开发代号
+- 查看 ubuntu 开发代号
+
 ```shell
 sudo lsb_release -a
 ```
+
 ![此处输入图片的描述][1]
 
 ```shell
@@ -33,6 +35,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted unive
 ```
 
 - 安装扩展插件
+
 ```shell
 sudo apt-get install python3-dev
 sudo apt-get install python3-pip
@@ -44,10 +47,11 @@ export LC_ALL=C
 virtualenv -p /usr/bin/python3 py3env
 source ./py3env/bin/activite
 
-pip3 install gerapy 
+pip3 install gerapy
 ```
 
-- 安装scrapyd
+- 安装 scrapyd
+
 ```shell
 pip3 install scrapyd
 pip3 install scrapyd-client
@@ -86,8 +90,8 @@ listjobs.json     = scrapyd.webservice.ListJobs
 daemonstatus.json = scrapyd.webservice.DaemonStatus
 ```
 
+- 启动 gerapy
 
-- 启动gerapy
 ```shell
 gerapy init
 
@@ -98,5 +102,4 @@ gerapy runserver
 gerapy runserver 0.0.0.0:8888
 ```
 
-
-  [1]: https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg
+[1]: https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg

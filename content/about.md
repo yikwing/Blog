@@ -5,28 +5,27 @@ menu = "main"
 
 # 联系方式
 
-- 手机：
-- Email：
-- 微信：
+- 姓名：荣毅
+- 手机：18664379256
+- Email：yikwing14@126.com
+- 微信：yikwing
 
 # 个人信息
 
-- 姓名/性别/出生日期
-- 本科/xxx 计算机系 xxx 专业/英语六级
-- 技术博客：[http://snailclimb.top/](http://snailclimb.top/)
-- 荣誉奖励：获得了什么奖（获奖时间）
-- Github：[https://github.com/Snailclimb ](https://github.com/Snailclimb)
-- Github Resume: [http://resume.github.io/?Snailclimb](http://resume.github.io/?Snailclimb)
-- 期望职位：Java 研发程序员/大数据工程师(Java 后台开发为首选)
-- 期望城市：xxx 城市
+- 技术博客：[http://yikwing.github.io/](http://yikwing.github.io/)
+  <!-- - 荣誉奖励：获得了什么奖（获奖时间） -->
+- Github：[https://github.com/yikwing ](https://github.com/yikwing)
+- 期望职位：Android 开发
 
 # 项目经历
 
-## xxx 项目
+## 追求体育 项目
 
 ### 项目描述
 
-介绍该项目是做什么的、使用到了什么技术以及你对项目整体设计的一个感受
+<!-- 介绍该项目是做什么的、使用到了什么技术以及你对项目整体设计的一个感受 -->
+
+追球体育是一个利用 Weex 技术实现三端开发,大大提高开发时间.
 
 ### 责任描述
 
@@ -49,7 +48,7 @@ menu = "main"
 - [前端&后端程序员必备的 Linux 基础知识](https://juejin.im/post/5b3b19856fb9a04fa42f8c71)
 - [可能是把 Docker 的概念讲的最清楚的一篇文章](https://juejin.im/post/5b260ec26fb9a00e8e4b031a)
 
-# 校园经历（可选）
+<!-- # 校园经历（可选）
 
 ## 2016-2017
 
@@ -57,7 +56,7 @@ menu = "main"
 
 ## 2017-2018
 
-担任学校传媒组织：“长江大学在线信息传媒”的副站长以及安卓组成员。主要负责每周例会主持、活动策划以及学校校园通 APP 的研发工作。
+担任学校传媒组织：“长江大学在线信息传媒”的副站长以及安卓组成员。主要负责每周例会主持、活动策划以及学校校园通 APP 的研发工作。 -->
 
 # 技能清单
 
