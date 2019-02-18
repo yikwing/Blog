@@ -107,10 +107,10 @@
     
     <item>
       <title>使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</title>
-      <link>https://yikwing.github.io/2019/oneindex/</link>
+      <link>https://yikwing.github.io/2019/003/</link>
       <pubDate>Tue, 22 Jan 2019 09:58:17 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2019/oneindex/</guid>
+      <guid>https://yikwing.github.io/2019/003/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;宝塔&lt;/li&gt;
 &lt;/ul&gt;
@@ -194,10 +194,10 @@ done
     
     <item>
       <title>ubuntu从零开始搭建爬虫框架</title>
-      <link>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</link>
+      <link>https://yikwing.github.io/2018/005/</link>
       <pubDate>Sat, 03 Mar 2018 11:40:26 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</guid>
+      <guid>https://yikwing.github.io/2018/005/</guid>
       <description>
 
 &lt;h2 id=&#34;更换-ubuntu-apt-源&#34;&gt;更换 ubuntu apt 源&lt;/h2&gt;
@@ -301,10 +301,10 @@ gerapy runserver 0.0.0.0:8888
     
     <item>
       <title>scrapy语法</title>
-      <link>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</link>
+      <link>https://yikwing.github.io/2018/004/</link>
       <pubDate>Sat, 03 Mar 2018 11:37:26 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</guid>
+      <guid>https://yikwing.github.io/2018/004/</guid>
       <description>
 
 &lt;h2 id=&#34;xpath-语法&#34;&gt;xpath 语法&lt;/h2&gt;
@@ -536,10 +536,10 @@ gerapy runserver 0.0.0.0:8888
     
     <item>
       <title>Mysql学习笔记</title>
-      <link>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>https://yikwing.github.io/2018/001/</link>
       <pubDate>Sat, 03 Mar 2018 11:23:16 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://yikwing.github.io/2018/001/</guid>
       <description>
 
 &lt;h2 id=&#34;安装-mysql-服务&#34;&gt;安装 MySql 服务&lt;/h2&gt;
@@ -993,10 +993,10 @@ mysql -u root 新数据库名 &amp;lt; bak.sql
     
     <item>
       <title>MySql服务安装及命令使用</title>
-      <link>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</link>
+      <link>https://yikwing.github.io/2018/002/</link>
       <pubDate>Sat, 03 Mar 2018 11:19:11 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://yikwing.github.io/2018/002/</guid>
       <description>
 
 &lt;h2 id=&#34;安装-mysql-服务&#34;&gt;安装 MySql 服务&lt;/h2&gt;

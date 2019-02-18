@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/" />
-  <link rel="next" href="https://yikwing.github.io/2019/oneindex/" />
-  <link rel="canonical" href="https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/" />
+  <link rel="prev" href="https://yikwing.github.io/2018/005/" />
+  
+  <link rel="canonical" href="https://yikwing.github.io/2019/003/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           ubuntu从零开始搭建爬虫框架 | yikwing`s Blog
+           使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘 | yikwing`s Blog
        
   </title>
-  <meta name="title" content="ubuntu从零开始搭建爬虫框架 | yikwing`s Blog">
+  <meta name="title" content="使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘 | yikwing`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,21 +44,21 @@
          "@id": "https://yikwing.github.io"
     },
     "articleSection" : "posts",
-    "name" : "ubuntu从零开始搭建爬虫框架",
-    "headline" : "ubuntu从零开始搭建爬虫框架",
-    "description" : "更换 ubuntu apt 源 查看 ubuntu 开发代号 sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/",
+    "name" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
+    "headline" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
+    "description" : "宝塔 #Centos系统 yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh 这里只需要安装 Nginx 和 php5.6 就可以了",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
     "publisher": "yikwing",
     "accountablePerson" : "yikwing",
     "copyrightHolder" : "yikwing",
-    "copyrightYear" : "2018",
-    "datePublished": "2018-03-03 11:40:26 &#43;0000 UTC",
-    "dateModified" : "2018-03-03 11:40:26 &#43;0000 UTC",
-    "url" : "https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/",
-    "wordCount" : "239",
-    "keywords" : [ "linux","scrapy","gerapy", "yikwing`s Blog"]
+    "copyrightYear" : "2019",
+    "datePublished": "2019-01-22 09:58:17 &#43;0000 UTC",
+    "dateModified" : "2019-01-22 09:58:17 &#43;0000 UTC",
+    "url" : "https://yikwing.github.io/2019/003/",
+    "wordCount" : "378",
+    "keywords" : [ "onedrive","oneindex", "yikwing`s Blog"]
 }
 </script>
 
@@ -130,22 +130,20 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">ubuntu从零开始搭建爬虫框架</h1>
+        <h1 class="post-title" itemprop="name headline">使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://yikwing.github.io" rel="author">yikwing</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2018-03-03 itemprop="datePublished">March 3, 2018</time>
+                on <time datetime=2019-01-22 itemprop="datePublished">January 22, 2019</time>
                 </span>
                 in
                 
-                <span class="post-word-count">, 239 words</span>
+                <span class="post-word-count">, 378 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -159,103 +157,83 @@
           
           
 
-          
-
-<h2 id="更换-ubuntu-apt-源">更换 ubuntu apt 源</h2>
-
-<ul>
-<li>查看 ubuntu 开发代号</li>
+          <ul>
+<li>宝塔</li>
 </ul>
 
-<pre><code class="language-shell">sudo lsb_release -a
+<pre><code class="language-shell">#Centos系统
+yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh
+
+#Ubuntu系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh
+
+#Debian系统
+wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
 </code></pre>
 
-<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
-
-<pre><code class="language-shell">## linux路径
-sudo vim  /etc/apt/sources.list
-
-deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse
-</code></pre>
+<p>这里只需要安装 Nginx 和 php5.6 就可以了，其他 FTP，Mysql 不需要</p>
 
 <ul>
-<li>安装扩展插件</li>
+<li>安装 Aria2</li>
 </ul>
 
-<pre><code class="language-shell">sudo apt-get install python3-dev
-sudo apt-get install python3-pip
-sudo apt-get install virtualenv
+<pre><code class="language-shell">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
+#备用地址
+wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
+</code></pre>
 
-# pip3 安装插件报错
-export LC_ALL=C
+<p>选择 1，安装 aria2 后一路 yes 就可以了。最后会出来一个密钥，记下来</p>
 
-virtualenv -p /usr/bin/python3 py3env
-source ./py3env/bin/activite
+<ul>
+<li>安装 ArinanNG 和 oneindex</li>
+</ul>
 
-pip3 install gerapy
+<pre><code class="language-shell"># NG
+https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip
+
+# oneIndex
+https://github.com/donwa/oneindex/archive/master.zip
 </code></pre>
 
 <ul>
-<li>安装 scrapyd</li>
+<li>编辑配置文件</li>
 </ul>
 
-<pre><code class="language-shell">pip3 install scrapyd
-pip3 install scrapyd-client
-
-sudo vim /etc/scrapyd/scrapyd.conf
-
-eg:~~~~~~
-[scrapyd]
-eggs_dir    = eggs
-logs_dir    = logs
-items_dir   =
-jobs_to_keep = 5
-dbs_dir     = dbs
-max_proc    = 0
-max_proc_per_cpu = 4
-finished_to_keep = 100
-poll_interval = 5.0
-bind_address = 127.0.0.1
-http_port   = 6800
-debug       = off
-runner      = scrapyd.runner
-application = scrapyd.app.application
-launcher    = scrapyd.launcher.Launcher
-webroot     = scrapyd.website.Root
-
-[services]
-schedule.json     = scrapyd.webservice.Schedule
-cancel.json       = scrapyd.webservice.Cancel
-addversion.json   = scrapyd.webservice.AddVersion
-listprojects.json = scrapyd.webservice.ListProjects
-listversions.json = scrapyd.webservice.ListVersions
-listspiders.json  = scrapyd.webservice.ListSpiders
-delproject.json   = scrapyd.webservice.DeleteProject
-delversion.json   = scrapyd.webservice.DeleteVersion
-listjobs.json     = scrapyd.webservice.ListJobs
-daemonstatus.json = scrapyd.webservice.DaemonStatus
+<pre><code class="language-shell">dir=/Download
+on-download-complete=/root/upload2one.sh
 </code></pre>
 
-<ul>
-<li>启动 gerapy</li>
-</ul>
+<p>自动上传 OneDrive</p>
 
-<pre><code class="language-shell">gerapy init
+<pre><code class="language-shell">#!/bin/bash
+path=$3
+downloadpath='/Download'
+if [[ $2 -eq 0 ]]
+       then
+               exit 0
+fi
+while true; do  #提取下载文件根路径，如把/root/downloads/a/b/c/d.jpg变成/root/downloads/a
+filepath=$path
+path=${path%/*};
+if [ &quot;$path&quot; = &quot;$downloadpath&quot; ] &amp;&amp; [ $2 -eq 1 ]  #如果下载的是单个文件
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &quot;$filepath&quot; /upload/
+   rm -rf &quot;$filepath&quot;
+   exit 0
+elif [ &quot;$path&quot; = &quot;$downloadpath&quot; ]   #文件夹
+   then
+   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &quot;$filepath&quot;/ /upload/&quot;${filepath##*/}&quot;/
+   rm -rf &quot;$filepath&quot;/
+   exit 0
+fi
+done
+</code></pre>
 
-cd gerapy
-gerapy migrate
+<p>赋予权限,重启 aria2NG</p>
 
-gerapy runserver
-gerapy runserver 0.0.0.0:8888
+<pre><code class="language-shell">chmod +x /root/upload2one.sh
+
+./aria2.sh
 </code></pre>
 
     </div>
@@ -271,7 +249,7 @@ gerapy runserver 0.0.0.0:8888
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</span>
+                    <a href=https://yikwing.github.io/2019/003/>https://yikwing.github.io/2019/003/</span>
             </p>
             
              
@@ -287,14 +265,11 @@ gerapy runserver 0.0.0.0:8888
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://yikwing.github.io/tags/linux/">
-                    #linux</a></span>
+            <span class="tag"><a href="https://yikwing.github.io/tags/onedrive/">
+                    #onedrive</a></span>
             
-            <span class="tag"><a href="https://yikwing.github.io/tags/scrapy/">
-                    #scrapy</a></span>
-            
-            <span class="tag"><a href="https://yikwing.github.io/tags/gerapy/">
-                    #gerapy</a></span>
+            <span class="tag"><a href="https://yikwing.github.io/tags/oneindex/">
+                    #oneindex</a></span>
             
             </section>
         
@@ -306,10 +281,8 @@ gerapy runserver 0.0.0.0:8888
 
     <div class="post-nav">
         
-        <a href="https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/" class="prev" rel="prev" title="scrapy语法"><i class="iconfont icon-left"></i>&nbsp;scrapy语法</a>
+        <a href="https://yikwing.github.io/2018/005/" class="prev" rel="prev" title="ubuntu从零开始搭建爬虫框架"><i class="iconfont icon-left"></i>&nbsp;ubuntu从零开始搭建爬虫框架</a>
          
-        
-        <a href="https://yikwing.github.io/2019/oneindex/" class="next" rel="next" title="使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘">使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -374,9 +347,8 @@ gerapy runserver 0.0.0.0:8888
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 

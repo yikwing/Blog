@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/" />
   
-  <link rel="canonical" href="https://yikwing.github.io/2019/oneindex/" />
+  <link rel="next" href="https://yikwing.github.io/2018/001/" />
+  <link rel="canonical" href="https://yikwing.github.io/2018/002/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘 | yikwing`s Blog
+           MySql服务安装及命令使用 | yikwing`s Blog
        
   </title>
-  <meta name="title" content="使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘 | yikwing`s Blog">
+  <meta name="title" content="MySql服务安装及命令使用 | yikwing`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,21 +44,21 @@
          "@id": "https://yikwing.github.io"
     },
     "articleSection" : "posts",
-    "name" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
-    "headline" : "使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘",
-    "description" : "宝塔 #Centos系统 yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh #Ubuntu系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh #Debian系统 wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh 这里只需要安装 Nginx 和 php5.6 就可以了",
+    "name" : "MySql服务安装及命令使用",
+    "headline" : "MySql服务安装及命令使用",
+    "description" : "安装 MySql 服务 mac brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client 修改密码 sudo mysqld_safe --skin-grant-tables --skip-networking &amp; &gt; use mysql &gt; update user set authentication_string=password('新密码'",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
     "publisher": "yikwing",
     "accountablePerson" : "yikwing",
     "copyrightHolder" : "yikwing",
-    "copyrightYear" : "2019",
-    "datePublished": "2019-01-22 09:58:17 &#43;0000 UTC",
-    "dateModified" : "2019-01-22 09:58:17 &#43;0000 UTC",
-    "url" : "https://yikwing.github.io/2019/oneindex/",
-    "wordCount" : "378",
-    "keywords" : [ "onedrive","oneindex", "yikwing`s Blog"]
+    "copyrightYear" : "2018",
+    "datePublished": "2018-03-03 11:19:11 &#43;0000 UTC",
+    "dateModified" : "2018-03-03 11:19:11 &#43;0000 UTC",
+    "url" : "https://yikwing.github.io/2018/002/",
+    "wordCount" : "361",
+    "keywords" : [ "hexo","sql","mysql", "yikwing`s Blog"]
 }
 </script>
 
@@ -130,20 +130,22 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</h1>
+        <h1 class="post-title" itemprop="name headline">MySql服务安装及命令使用</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://yikwing.github.io" rel="author">yikwing</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-01-22 itemprop="datePublished">January 22, 2019</time>
+                on <time datetime=2018-03-03 itemprop="datePublished">March 3, 2018</time>
                 </span>
                 in
                 
-                <span class="post-word-count">, 378 words</span>
+                <span class="post-word-count">, 361 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -157,83 +159,128 @@
           
           
 
-          <ul>
-<li>宝塔</li>
-</ul>
+          
 
-<pre><code class="language-shell">#Centos系统
-yum install -y wget &amp;&amp; wget -O install.sh http://download.bt.cn/install/install.sh &amp;&amp; sh install.sh
-
-#Ubuntu系统
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; sudo bash install.sh
-
-#Debian系统
-wget -O install.sh http://download.bt.cn/install/install-ubuntu.sh &amp;&amp; bash install.sh
-</code></pre>
-
-<p>这里只需要安装 Nginx 和 php5.6 就可以了，其他 FTP，Mysql 不需要</p>
+<h2 id="安装-mysql-服务">安装 MySql 服务</h2>
 
 <ul>
-<li>安装 Aria2</li>
+<li>mac</li>
 </ul>
 
-<pre><code class="language-shell">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
-#备用地址
-wget -N --no-check-certificate https://www.moerats.com/usr/shell/Aria2/aria2.sh &amp;&amp; chmod +x aria2.sh &amp;&amp; bash aria2.sh
-</code></pre>
-
-<p>选择 1，安装 aria2 后一路 yes 就可以了。最后会出来一个密钥，记下来</p>
-
-<ul>
-<li>安装 ArinanNG 和 oneindex</li>
-</ul>
-
-<pre><code class="language-shell"># NG
-https://github.com/mayswind/AriaNg/releases/download/1.0.0/AriaNg-1.0.0.zip
-
-# oneIndex
-https://github.com/donwa/oneindex/archive/master.zip
+<pre><code class="language-shell">brew install mysql
 </code></pre>
 
 <ul>
-<li>编辑配置文件</li>
+<li>linux</li>
 </ul>
 
-<pre><code class="language-shell">dir=/Download
-on-download-complete=/root/upload2one.sh
+<pre><code class="language-shell">sudo apt-get insatll mysql-server
+sudo apt-get install mysql-client
 </code></pre>
 
-<p>自动上传 OneDrive</p>
+<hr />
 
-<pre><code class="language-shell">#!/bin/bash
-path=$3
-downloadpath='/Download'
-if [[ $2 -eq 0 ]]
-       then
-               exit 0
-fi
-while true; do  #提取下载文件根路径，如把/root/downloads/a/b/c/d.jpg变成/root/downloads/a
-filepath=$path
-path=${path%/*};
-if [ &quot;$path&quot; = &quot;$downloadpath&quot; ] &amp;&amp; [ $2 -eq 1 ]  #如果下载的是单个文件
-   then
-   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:file &quot;$filepath&quot; /upload/
-   rm -rf &quot;$filepath&quot;
-   exit 0
-elif [ &quot;$path&quot; = &quot;$downloadpath&quot; ]   #文件夹
-   then
-   /www/server/php/72/bin/php /www/wwwroot/你的ip或者域名/one/one.php upload:folder &quot;$filepath&quot;/ /upload/&quot;${filepath##*/}&quot;/
-   rm -rf &quot;$filepath&quot;/
-   exit 0
-fi
-done
+<h2 id="修改密码">修改密码</h2>
+
+<pre><code class="language-sql">
+sudo mysqld_safe --skin-grant-tables --skip-networking &amp;
+
+&gt; use mysql
+&gt; update user set authentication_string=password('新密码'),
+plugin='mysql_native_password' where user = 'root'
+&gt; flush privileges
+&gt; quit
 </code></pre>
 
-<p>赋予权限,重启 aria2NG</p>
+<hr />
 
-<pre><code class="language-shell">chmod +x /root/upload2one.sh
+<h2 id="mysql-设置远程访问">mysql 设置远程访问</h2>
 
-./aria2.sh
+<ol>
+<li>sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf</li>
+<li>注释掉 &lsquo;#bind-address = 127.0.0.1&rsquo;</li>
+<li>进入 mysql</li>
+<li>GRANT ALL PRIVILEGES ON <em>.</em> TO &lsquo;username&rsquo;@&lsquo;%&rsquo; IDENTIFIED BY &lsquo;password&rsquo; WITH GRANT OPTION;</li>
+<li>flush PRIVILEGES</li>
+<li>退出并重启 mysql</li>
+</ol>
+
+<hr />
+
+<h2 id="启动-mysql-服务">启动 MySql 服务</h2>
+
+<ul>
+<li>mac</li>
+</ul>
+
+<pre><code class="language-shell"># 启动mysql服务
+mysql.server start
+
+# 关闭mysql服务
+mysql.server stop
+
+#连接mysql数据库
+sudo mysql -h host(主机地址) -u user(用户名)  -p
+</code></pre>
+
+<ul>
+<li>linux</li>
+</ul>
+
+<pre><code class="language-shell"># 启动mysql服务
+sudo service mysql start
+
+# 关闭mysql服务
+sudo service mysql start
+
+#连接mysql数据库
+sudo mysql -u root(用户名) -p password(密码)
+</code></pre>
+
+<hr />
+
+<h2 id="ssh-远程连接">ssh 远程连接</h2>
+
+<ol>
+<li>虚拟机使用桥接模式</li>
+<li>sudo apt-get install ssh</li>
+<li>ssh username@host</li>
+</ol>
+
+<hr />
+
+<h2 id="输入查询">输入查询</h2>
+
+<pre><code class="language-sql">SELECT VERSION(),CURRENT_DATE;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1238timestamp1438158105657.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<pre><code class="language-sql">SELECT SIN(PI()/4),(4+1)*5;
+
+# 如果你决定不想执行正在输入过程中的一个命令，输入`\c`取消它：
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1238timestamp1438158281502.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<h2 id="创建表">创建表</h2>
+
+<pre><code class="language-sql">mysql&gt; CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+    -&gt; species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);
+</code></pre>
+
+<h2 id="显示数据表">显示数据表</h2>
+
+<pre><code class="language-shell">mysql&gt; DESCRIBE pet;
+</code></pre>
+
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://dn-anything-about-doc.qbox.me/document-uid73259labid1239timestamp1438163082069.png?watermark/1/image/aHR0cDovL3N5bC1zdGF0aWMucWluaXVkbi5jb20vaW1nL3dhdGVybWFyay5wbmc=/dissolve/60/gravity/SouthEast/dx/0/dy/10" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
+
+<hr />
+
+<h2 id="过滤数据表-distinct">过滤数据表(distinct)</h2>
+
+<pre><code class="language-sql">select distinct owner from pet;
 </code></pre>
 
     </div>
@@ -249,7 +296,7 @@ done
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://yikwing.github.io/2019/oneindex/>https://yikwing.github.io/2019/oneindex/</span>
+                    <a href=https://yikwing.github.io/2018/002/>https://yikwing.github.io/2018/002/</span>
             </p>
             
              
@@ -265,11 +312,14 @@ done
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://yikwing.github.io/tags/onedrive/">
-                    #onedrive</a></span>
+            <span class="tag"><a href="https://yikwing.github.io/tags/hexo/">
+                    #hexo</a></span>
             
-            <span class="tag"><a href="https://yikwing.github.io/tags/oneindex/">
-                    #oneindex</a></span>
+            <span class="tag"><a href="https://yikwing.github.io/tags/sql/">
+                    #sql</a></span>
+            
+            <span class="tag"><a href="https://yikwing.github.io/tags/mysql/">
+                    #mysql</a></span>
             
             </section>
         
@@ -280,9 +330,9 @@ done
     </div>
 
     <div class="post-nav">
-        
-        <a href="https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/" class="prev" rel="prev" title="ubuntu从零开始搭建爬虫框架"><i class="iconfont icon-left"></i>&nbsp;ubuntu从零开始搭建爬虫框架</a>
          
+        
+        <a href="https://yikwing.github.io/2018/001/" class="next" rel="next" title="Mysql学习笔记">Mysql学习笔记&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -347,8 +397,9 @@ done
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

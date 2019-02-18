@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" />
-  <link rel="next" href="https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/" />
-  <link rel="canonical" href="https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/" />
+  <link rel="prev" href="https://yikwing.github.io/2018/004/" />
+  <link rel="next" href="https://yikwing.github.io/2019/003/" />
+  <link rel="canonical" href="https://yikwing.github.io/2018/005/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           scrapy语法 | yikwing`s Blog
+           ubuntu从零开始搭建爬虫框架 | yikwing`s Blog
        
   </title>
-  <meta name="title" content="scrapy语法 | yikwing`s Blog">
+  <meta name="title" content="ubuntu从零开始搭建爬虫框架 | yikwing`s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https://yikwing.github.io"
     },
     "articleSection" : "posts",
-    "name" : "scrapy语法",
-    "headline" : "scrapy语法",
-    "description" : "xpath 语法 表达式 说明 article 选取所有 article 元素的所有子节点 /article 选取根元素 article article/a 选取所有属于 article 的子元素的 a 元素 //div 选取所有 div 子元素 article//div 选取所有属于 article 元素的后代 div 元素",
+    "name" : "ubuntu从零开始搭建爬虫框架",
+    "headline" : "ubuntu从零开始搭建爬虫框架",
+    "description" : "更换 ubuntu apt 源 查看 ubuntu 开发代号 sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/",
     "inLanguage" : "zh-cn",
     "author" : "yikwing",
     "creator" : "yikwing",
@@ -54,11 +54,11 @@
     "accountablePerson" : "yikwing",
     "copyrightHolder" : "yikwing",
     "copyrightYear" : "2018",
-    "datePublished": "2018-03-03 11:37:26 &#43;0000 UTC",
-    "dateModified" : "2018-03-03 11:37:26 &#43;0000 UTC",
-    "url" : "https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/",
-    "wordCount" : "470",
-    "keywords" : [ "scrapy","xpath","css", "yikwing`s Blog"]
+    "datePublished": "2018-03-03 11:40:26 &#43;0000 UTC",
+    "dateModified" : "2018-03-03 11:40:26 &#43;0000 UTC",
+    "url" : "https://yikwing.github.io/2018/005/",
+    "wordCount" : "239",
+    "keywords" : [ "linux","scrapy","gerapy", "yikwing`s Blog"]
 }
 </script>
 
@@ -130,7 +130,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">scrapy语法</h1>
+        <h1 class="post-title" itemprop="name headline">ubuntu从零开始搭建爬虫框架</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://yikwing.github.io" rel="author">yikwing</a> with ♥ 
                 <span class="post-time">
@@ -138,12 +138,14 @@
                 </span>
                 in
                 
-                <span class="post-word-count">, 470 words</span>
+                <span class="post-word-count">, 239 words</span>
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -159,230 +161,102 @@
 
           
 
-<h2 id="xpath-语法">xpath 语法</h2>
+<h2 id="更换-ubuntu-apt-源">更换 ubuntu apt 源</h2>
 
-<table>
-<thead>
-<tr>
-<th>表达式</th>
-<th>说明</th>
-</tr>
-</thead>
+<ul>
+<li>查看 ubuntu 开发代号</li>
+</ul>
 
-<tbody>
-<tr>
-<td>article</td>
-<td>选取所有 article 元素的所有子节点</td>
-</tr>
+<pre><code class="language-shell">sudo lsb_release -a
+</code></pre>
 
-<tr>
-<td>/article</td>
-<td>选取根元素 article</td>
-</tr>
+<p><figure><img src="/images/ring.svg" data-sizes="auto" data-src="https://s13.postimg.org/fq3z4univ/Jietu20180124-171333.jpg" alt="此处输入图片的描述" class="lazyload"><figcaption class="image-caption">此处输入图片的描述</figcaption></figure></p>
 
-<tr>
-<td>article/a</td>
-<td>选取所有属于 article 的子元素的 a 元素</td>
-</tr>
+<pre><code class="language-shell">## linux路径
+sudo vim  /etc/apt/sources.list
 
-<tr>
-<td>//div</td>
-<td>选取所有 div 子元素</td>
-</tr>
+deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse
+</code></pre>
 
-<tr>
-<td>article//div</td>
-<td>选取所有属于 article 元素的后代 div 元素</td>
-</tr>
+<ul>
+<li>安装扩展插件</li>
+</ul>
 
-<tr>
-<td>//@class</td>
-<td>选取所有名为 class 的属性</td>
-</tr>
-</tbody>
-</table>
+<pre><code class="language-shell">sudo apt-get install python3-dev
+sudo apt-get install python3-pip
+sudo apt-get install virtualenv
 
-<h2 id="xpath-语法-谓语">xpath 语法-谓语</h2>
+# pip3 安装插件报错
+export LC_ALL=C
 
-<table>
-<thead>
-<tr>
-<th>表达式</th>
-<th>说明</th>
-</tr>
-</thead>
+virtualenv -p /usr/bin/python3 py3env
+source ./py3env/bin/activite
 
-<tbody>
-<tr>
-<td>/article/div[1]</td>
-<td>选取属于 article 子元素的第一个 div 元素</td>
-</tr>
+pip3 install gerapy
+</code></pre>
 
-<tr>
-<td>/article/div[last()]</td>
-<td>选取属于 article 子元素的最后一个 div 元素</td>
-</tr>
+<ul>
+<li>安装 scrapyd</li>
+</ul>
 
-<tr>
-<td>/article/div[last()]</td>
-<td>选取属于 article 子元素的倒数第二个 div 元素</td>
-</tr>
+<pre><code class="language-shell">pip3 install scrapyd
+pip3 install scrapyd-client
 
-<tr>
-<td>//div[@lang]</td>
-<td>选取所有拥有 lang 属性的 div 元素</td>
-</tr>
+sudo vim /etc/scrapyd/scrapyd.conf
 
-<tr>
-<td>//div[@lang=&lsquo;eng&rsquo;]</td>
-<td>选取所有 lang 属性为 eng 的 div 元素</td>
-</tr>
-</tbody>
-</table>
+eg:~~~~~~
+[scrapyd]
+eggs_dir    = eggs
+logs_dir    = logs
+items_dir   =
+jobs_to_keep = 5
+dbs_dir     = dbs
+max_proc    = 0
+max_proc_per_cpu = 4
+finished_to_keep = 100
+poll_interval = 5.0
+bind_address = 127.0.0.1
+http_port   = 6800
+debug       = off
+runner      = scrapyd.runner
+application = scrapyd.app.application
+launcher    = scrapyd.launcher.Launcher
+webroot     = scrapyd.website.Root
 
-<h2 id="xpath-语法-其他">xpath 语法-其他</h2>
+[services]
+schedule.json     = scrapyd.webservice.Schedule
+cancel.json       = scrapyd.webservice.Cancel
+addversion.json   = scrapyd.webservice.AddVersion
+listprojects.json = scrapyd.webservice.ListProjects
+listversions.json = scrapyd.webservice.ListVersions
+listspiders.json  = scrapyd.webservice.ListSpiders
+delproject.json   = scrapyd.webservice.DeleteProject
+delversion.json   = scrapyd.webservice.DeleteVersion
+listjobs.json     = scrapyd.webservice.ListJobs
+daemonstatus.json = scrapyd.webservice.DaemonStatus
+</code></pre>
 
-<table>
-<thead>
-<tr>
-<th>表达式</th>
-<th>说明</th>
-</tr>
-</thead>
+<ul>
+<li>启动 gerapy</li>
+</ul>
 
-<tbody>
-<tr>
-<td>/div/*</td>
-<td>选取属于 div 元素的所有子节点</td>
-</tr>
+<pre><code class="language-shell">gerapy init
 
-<tr>
-<td>//*</td>
-<td>选取所有元素</td>
-</tr>
+cd gerapy
+gerapy migrate
 
-<tr>
-<td>//div[@*]</td>
-<td>选取所有带属性的 div 元素</td>
-</tr>
-
-<tr>
-<td>//div/a | //div/p</td>
-<td>选取所有 div 元素的 a 和 p 元素</td>
-</tr>
-
-<tr>
-<td>//span | //ul</td>
-<td>选取文档中的 span 和 ul 元素</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="css-选择器">css 选择器</h2>
-
-<table>
-<thead>
-<tr>
-<th>表达式</th>
-<th>说明</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>*</td>
-<td>选择所有节点</td>
-</tr>
-
-<tr>
-<td>#contriner</td>
-<td>选择 id 为 contriner 的节点</td>
-</tr>
-
-<tr>
-<td>.container</td>
-<td>选取所有 class 包含 container 的节点</td>
-</tr>
-
-<tr>
-<td>li a</td>
-<td>选取所有 li 下的所有 a 节点</td>
-</tr>
-
-<tr>
-<td>ul + p</td>
-<td>选择 ul 后面的第一个 p 元素</td>
-</tr>
-
-<tr>
-<td>div#container &gt; ul</td>
-<td>选取 id 为 container 的 div 的第一个 ul 子元素</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="css-选择器进阶">css 选择器进阶</h2>
-
-<table>
-<thead>
-<tr>
-<th>表达式</th>
-<th>说明</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>ul ~ p</td>
-<td>选取与 ul 相邻的所有 p 元素</td>
-</tr>
-
-<tr>
-<td>a[title]</td>
-<td>选取所有有 title 属性的 a 元素</td>
-</tr>
-
-<tr>
-<td>a[href=&ldquo;xxx&rdquo;]</td>
-<td>选取所有 href 属性为 xxx 值的 a 元素</td>
-</tr>
-
-<tr>
-<td>a[href*=&ldquo;xxx&rdquo;]</td>
-<td>选取所有 href 属性包含 xxx 的 a 元素</td>
-</tr>
-
-<tr>
-<td>a[href^=&ldquo;xxx&rdquo;]</td>
-<td>选择所有 href 属性以 xxx 开头的 a 元素</td>
-</tr>
-
-<tr>
-<td>a[href$=&ldquo;.jpg&rdquo;]</td>
-<td>选取所有 href 属性以.jpg 结尾的 a 元素</td>
-</tr>
-
-<tr>
-<td>input[type=radio]:checked</td>
-<td>选择选中的 radio 的元素</td>
-</tr>
-
-<tr>
-<td>div:not(#container)</td>
-<td>选取所有 id 非 container 的 div 属性</td>
-</tr>
-
-<tr>
-<td>li:nth-child(3)</td>
-<td>选取第三个 li 元素</td>
-</tr>
-
-<tr>
-<td>tr:nth-child(2n)</td>
-<td>第偶数个 tr</td>
-</tr>
-</tbody>
-</table>
+gerapy runserver
+gerapy runserver 0.0.0.0:8888
+</code></pre>
 
     </div>
 
@@ -397,7 +271,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/>https://yikwing.github.io/2018/scrapy%E8%AF%AD%E6%B3%95/</span>
+                    <a href=https://yikwing.github.io/2018/005/>https://yikwing.github.io/2018/005/</span>
             </p>
             
              
@@ -413,14 +287,14 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
+            <span class="tag"><a href="https://yikwing.github.io/tags/linux/">
+                    #linux</a></span>
+            
             <span class="tag"><a href="https://yikwing.github.io/tags/scrapy/">
                     #scrapy</a></span>
             
-            <span class="tag"><a href="https://yikwing.github.io/tags/xpath/">
-                    #xpath</a></span>
-            
-            <span class="tag"><a href="https://yikwing.github.io/tags/css/">
-                    #css</a></span>
+            <span class="tag"><a href="https://yikwing.github.io/tags/gerapy/">
+                    #gerapy</a></span>
             
             </section>
         
@@ -432,10 +306,10 @@
 
     <div class="post-nav">
         
-        <a href="https://yikwing.github.io/2018/mysql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="prev" rel="prev" title="Mysql学习笔记"><i class="iconfont icon-left"></i>&nbsp;Mysql学习笔记</a>
+        <a href="https://yikwing.github.io/2018/004/" class="prev" rel="prev" title="scrapy语法"><i class="iconfont icon-left"></i>&nbsp;scrapy语法</a>
          
         
-        <a href="https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/" class="next" rel="next" title="ubuntu从零开始搭建爬虫框架">ubuntu从零开始搭建爬虫框架&nbsp;<i class="iconfont icon-right"></i></a>
+        <a href="https://yikwing.github.io/2019/003/" class="next" rel="next" title="使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘">使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -500,8 +374,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 

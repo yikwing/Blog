@@ -13,10 +13,10 @@
     
     <item>
       <title>ubuntu从零开始搭建爬虫框架</title>
-      <link>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</link>
+      <link>https://yikwing.github.io/2018/005/</link>
       <pubDate>Sat, 03 Mar 2018 11:40:26 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/ubuntu%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E6%90%AD%E5%BB%BA%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/</guid>
+      <guid>https://yikwing.github.io/2018/005/</guid>
       <description>更换 ubuntu apt 源 查看 ubuntu 开发代号 sudo lsb_release -a ## linux路径 sudo vim /etc/apt/sources.list deb http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-security main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-updates main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-proposed main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ artful-backports main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/ artful main restricted universe multiverse deb-src http://mirrors.aliyun.com/ubuntu/</description>
     </item>
     

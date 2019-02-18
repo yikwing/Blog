@@ -13,10 +13,10 @@
     
     <item>
       <title>MySql服务安装及命令使用</title>
-      <link>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</link>
+      <link>https://yikwing.github.io/2018/002/</link>
       <pubDate>Sat, 03 Mar 2018 11:19:11 +0000</pubDate>
       
-      <guid>https://yikwing.github.io/2018/mysql%E6%9C%8D%E5%8A%A1%E5%AE%89%E8%A3%85%E5%8F%8A%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8/</guid>
+      <guid>https://yikwing.github.io/2018/002/</guid>
       <description>安装 MySql 服务 mac brew install mysql linux sudo apt-get insatll mysql-server sudo apt-get install mysql-client 修改密码 sudo mysqld_safe --skin-grant-tables --skip-networking &amp;amp; &amp;gt; use mysql &amp;gt; update user set authentication_string=password(&#39;新密码&#39;</description>
     </item>
     
