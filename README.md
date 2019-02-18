@@ -1,6 +1,7 @@
 # md 文件目录映射
 
-taavis build [![Build Status](https://travis-ci.org/yikwing/Blog.svg?branch=master)](https://travis-ci.org/yikwing/Blog)
+Build for travis-ci
+[![Build Status](https://travis-ci.org/yikwing/Blog.svg?branch=master)](https://travis-ci.org/yikwing/Blog)
 
 | 表达式 | 说明                        |
 | ------ | --------------------------- |
