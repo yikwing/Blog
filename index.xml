@@ -6,8 +6,71 @@
     <description>Recent content in yikwing`s Blog on yikwing`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 11:40:26 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>gradle 测试/正式包同时安装,BuildConfig 配置小技巧</title>
+      <link>https://yikwing.github.io/2019/006/</link>
+      <pubDate>Mon, 18 Feb 2019 11:40:26 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/006/</guid>
+      <description>
+
+&lt;h2 id=&#34;1-前言&#34;&gt;1. 前言&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Maybe 你会有这个烦恼，在开发的时候，你会需要经常切换正式/测试服务器地址开发,或者根据不同环境进行不同的配置,这时该怎么办?有人说，我手里头有两台测试机，一台装正式包，另一台装测试包。我想说，陈独秀同学，你先坐下，咱大多数人都只有一台测试机呀。
+那么，问题来了，怎么实现一台手机上同时安装正式包和测试包呢。这就是本文要解决的问题。&lt;/p&gt;
+
+&lt;h2 id=&#34;2-实现一台手机上同时安装正式包和测试包并进行区别配置&#34;&gt;2. 实现一台手机上同时安装正式包和测试包并进行区别配置&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;我们知道，Android 应用的唯一标识是包名，也就是 build.gradle 里的 applicationId。在一台手机上不允许安装的两个包的唯一标识重复。因此，只需要把测试包的 applicationId 亦即包名改一下就好了~&lt;/p&gt;
+
+&lt;h3 id=&#34;2-1-修改测试包包名&#34;&gt;2.1 修改测试包包名&lt;/h3&gt;
+
+&lt;p&gt;查阅文档之后发现，Android 官方对这种场景早有支持，只需要在 &lt;code&gt;app/build.gradle&lt;/code&gt; 的 &lt;code&gt;android-&amp;gt;buildTypes-&amp;gt;debug&lt;/code&gt; 节点下面设置 &lt;code&gt;applicationIdSuffix&lt;/code&gt; 即可，示例如下：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-gradle&#34;&gt;buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile(&#39;proguard-android.txt&#39;), &#39;proguard-rules.pro&#39;
+            signingConfig signingConfigs.release //方便调试不要学
+            buildConfigField &amp;quot;String&amp;quot;, &amp;quot;HOST&amp;quot;, &amp;quot;\&amp;quot;https:www.google.com\&amp;quot;&amp;quot;
+            buildConfigField &amp;quot;boolean&amp;quot;, &amp;quot;SHOW_LOG&amp;quot;, &amp;quot;false&amp;quot;
+            applicationIdSuffix &amp;quot;.release&amp;quot;  //包名
+            resValue &amp;quot;string&amp;quot;, &amp;quot;app_name&amp;quot;, &amp;quot;release&amp;quot;  //修改程序名
+        }
+
+        debug {
+            signingConfig signingConfigs.release //方便调试不要学
+            buildConfigField &amp;quot;String&amp;quot;, &amp;quot;HOST&amp;quot;,  &amp;quot;\&amp;quot;https:www.baidu.com\&amp;quot;&amp;quot;
+            buildConfigField &amp;quot;boolean&amp;quot;, &amp;quot;SHOW_LOG&amp;quot;, &amp;quot;true&amp;quot;
+            applicationIdSuffix &amp;quot;.debug&amp;quot;  // 包名
+            resValue &amp;quot;string&amp;quot;, &amp;quot;app_name&amp;quot;, &amp;quot;debug&amp;quot;  //修改程序名
+        }
+
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-2-区别配置&#34;&gt;2.2 区别配置&lt;/h3&gt;
+
+&lt;p&gt;眼尖的小伙伴肯定发现了,为什么除了&lt;code&gt;applicationIdSuffix&lt;/code&gt;这个以外,还有其它不懂的东西鸭! 问的好,这就是 gradle 另一个方便的类&lt;code&gt;BuildConfig&lt;/code&gt;.
+&lt;img src=&#34;https://i.loli.net/2019/02/19/5c6bc4c3df0ea.jpg&#34; alt=&#34;BuildConfig_release&#34; /&gt;
+&lt;img src=&#34;https://i.loli.net/2019/02/19/5c6bc4c3e1002.jpg&#34; alt=&#34;BuildConfig_debug&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;根据图片我们可以看到,我们设置后 App 的&lt;code&gt;APP名&lt;/code&gt;,&lt;code&gt;包名&lt;/code&gt;,&lt;code&gt;HOST&lt;/code&gt;,&lt;code&gt;SHOW_LOG&lt;/code&gt;都发生了变化,这样大家可以根据自己的业务需求进行定制化.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-实际效果演示&#34;&gt;3.实际效果演示&lt;/h2&gt;
+
+&lt;p&gt;github Demo 地址: &lt;a href=&#34;https://github.com/yikwing/BaseAndroidModel&#34; rel=&#34;nofollow noreferrer&#34; target=&#34;_blank&#34;&gt;https://github.com/yikwing/BaseAndroidModel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.loli.net/2019/02/19/5c6bbf9b2f282.gif&#34; alt=&#34;实际效果&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title></title>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gradle小技巧 on yikwing`s Blog</title>
+    <link>https://yikwing.github.io/categories/gradle%E5%B0%8F%E6%8A%80%E5%B7%A7/</link>
+    <description>Recent content in gradle小技巧 on yikwing`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 18 Feb 2019 11:40:26 +0000</lastBuildDate>
+    
+	<atom:link href="https://yikwing.github.io/categories/gradle%E5%B0%8F%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gradle 测试/正式包同时安装,BuildConfig 配置小技巧</title>
+      <link>https://yikwing.github.io/2019/006/</link>
+      <pubDate>Mon, 18 Feb 2019 11:40:26 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/006/</guid>
+      <description>1. 前言 Maybe 你会有这个烦恼，在开发的时候，你会需要经常切换正式/测试服务器地址开发,或者根据不同环境进行不同的配置,这时该怎么办?有人说，我手里</description>
+    </item>
+    
+  </channel>
+</rss>

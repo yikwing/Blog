@@ -6,10 +6,19 @@
     <description>Recent content in Posts on yikwing`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 22 Jan 2019 09:58:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Feb 2019 11:40:26 +0000</lastBuildDate>
     
 	<atom:link href="https://yikwing.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gradle 测试/正式包同时安装,BuildConfig 配置小技巧</title>
+      <link>https://yikwing.github.io/2019/006/</link>
+      <pubDate>Mon, 18 Feb 2019 11:40:26 +0000</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/006/</guid>
+      <description>1. 前言 Maybe 你会有这个烦恼，在开发的时候，你会需要经常切换正式/测试服务器地址开发,或者根据不同环境进行不同的配置,这时该怎么办?有人说，我手里</description>
+    </item>
     
     <item>
       <title>使用Aria2&#43;Aria2Ng&#43;OneIndex&#43;OneDrive建立不限流量/离线BT下载/在线观看网盘</title>
