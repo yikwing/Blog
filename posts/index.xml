@@ -6,10 +6,28 @@
     <description>Recent content in Posts on yikwing`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 18 Feb 2019 11:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Mar 2019 13:43:46 +0800</lastBuildDate>
     
 	<atom:link href="https://yikwing.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>flutter Json快速实现序列化</title>
+      <link>https://yikwing.github.io/2019/008/</link>
+      <pubDate>Mon, 11 Mar 2019 13:43:46 +0800</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/008/</guid>
+      <description>Json 序列化 1. json 数据 #Mock数据 { &amp;quot;item_type&amp;quot;: 1, &amp;quot;data&amp;quot;: { &amp;quot;view_count&amp;quot;: 3, &amp;quot;source_name&amp;quot;: &amp;quot;追球体育&amp;quot;, &amp;quot;title&amp;quot;: &amp;quot;创造历史！曼联成欧冠首支主场落后2球后晋级的球</description>
+    </item>
+    
+    <item>
+      <title>Android中的Service</title>
+      <link>https://yikwing.github.io/2019/007/</link>
+      <pubDate>Wed, 20 Feb 2019 09:52:40 +0800</pubDate>
+      
+      <guid>https://yikwing.github.io/2019/007/</guid>
+      <description>1.什么是 Service Service 是一个可以在后台执行长时间操作而不使用用户界面的应用组件。那么问题来了，既然它不使用用户界面，那么它怎么知道应该什么时候开始执</description>
+    </item>
     
     <item>
       <title>gradle 测试/正式包同时安装,BuildConfig 配置小技巧</title>
