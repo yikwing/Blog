@@ -11,3 +11,5 @@ Build for travis-ci
 | 004    | scrapy 语法                                       |
 | 005    | ubuntu 从零开始搭建爬虫框架                       |
 | 006    | gradle 测试/正式包同时安装,BuildConfig 配置小技巧 |
+| 007    | Android 中的 Service                              |
+| 008    | flutter Json 快速实现序列化                       |
