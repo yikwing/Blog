@@ -3,9 +3,6 @@ User-agent: *
 Disallow: /images/
 Disallow: /js/
 Disallow: /css/
-# Test pages
-Disallow: /test/
-Disallow: /images/test/
 
 User-agent: MJ12bot
 Disallow: /
@@ -57,8 +54,6 @@ Disallow: /
 # Block pricepi
 User-agent: pimonster
 Disallow: /
-User-agent: Pimonster
-Disallow: /
 
 User-agent: SurdotlyBot
 Disallow: /
@@ -66,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://yikwing.github.io/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
