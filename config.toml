@@ -1,84 +1,246 @@
-baseURL = "https://yikwing.github.io" # <head> 里面的 baseurl 信息，填你的博客地址
-title = "yikwing`s Blog" # 浏览器的标题
-languageCode = "zh-cn" # 语言
-hasCJKLanguage = true # 开启可以让「字数统计」统计汉字
-theme = "LeaveIt" # 主题 (需要自己下载)
+baseURL = "https://example.com/"
+languageCode = "en"                                      # website language
+defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
+title = "LoveIt Theme"                                   # website title
+theme = "LoveIt"                                         # theme
+enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
+hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
+paginate = 12                                            # default amount of posts in each pages
+enableEmoji = true                                       # whether to use emoji code
+enableRobotsTXT = true                                   # whether to use robots.txt
+googleAnalytics = ""                                     # [UA-XXXXXXXX-X] google analytics code
+disqusShortname = "dillonzq"                             # Disqus shortname to use Disqus in posts
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+                                                         # copyright description used only for seo schema
 
-paginate = 11 # 每页的文章数
-enableEmoji = true # 支持 Emoji
-enableRobotsTXT = true # 支持 robots.txt
-googleAnalytics = "" # Google 统计 id
+                                                      #### Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
 
-preserveTaxonomyNames = true
+staticDir = ["static", "../assets/others"]               # static directories
 
-[blackfriday]
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
+[author]                                              #### Author Info
+  name = "yikwing"
 
-[Permalinks]
-  posts = "/:year/:filename/"
+[sitemap]                                             #### Sitemap Info
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
-[menu]
+[Permalinks]                                          #### Permalinks Info (https://gohugo.io/content-management/urls/#permalinks)
+  posts = ":year/:month/:filename"
+
+[menu]                                                #### Menu Info
   [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
+    identifier = "posts"
+    name = "Posts"
+    url = "posts"
     weight = 1
 
   [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    identifier = "tags"
+    name = "Tags"
+    url = "tags"
     weight = 2
 
   [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
+    identifier = "categories"
+    name = "Categories"
+    url = "categories"
     weight = 3
 
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 4
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "about"
+  #   weight = 4
+
+  # [[menu.main]]
+  #   identifier = "zh"
+  #   name = '<i class="fas fa-language fa-fw"></i>'
+  #   url = "https://hugo-loveit-zh.netlify.com"
+  #   weight = 5
 
 [params]
-    since = 2017
-    author = "yikwing"                          # Author's name
-    avatar = "https://i.loli.net/2019/02/16/5c67ca84d2306.jpeg"           # Author's avatar
-    subtitle = "Just for Fun"                  # Subtitle
-    cdn_url = ""           # Base CDN URL
-    home_mode = "" # post or other
-    enableGitalk = true # gitalk 评论系统
+  version = "5.x"                                        # LoveIt theme version
+  description = "LoveIt Theme Demo"                      # site description
+  keywords = ["XXXX", "Theme", "Hugo"]                   # site keywords
 
-    google_verification = ""
+                                                      #### Home Page Info
+  home_mode = "post"                                     # [post, other] home mode
+  home_paginate = 6                                      # special amount of posts in each home post page
+  avatar = "images/avatar.png"                           # URL of avatar shown in home page
+  # subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
 
-    description = "" # (Meta) 描述
-    keywords = "" # site keywords
+  socialShare = true                                     # whether to show social share links in post page
 
-    beian = ""
-    baiduAnalytics = ""
-    
-    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+                                                      #### Footer CopyRight Info
+  since = 2018                                           # Site creation time
+  icp = ''                                               # ICP info only in China (HTML format is allowed)
+  license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+                                                         # license info (HTML format is allowed)
+  gitRepo = ""                                           # public git repo url to link lastmod git commit only then enableGitInfo is true
 
-[params.social]
-    GitHub = "yikwing"
-    # Twitter = "xxoo"
-    Email   = "yikwing14@126.com"
-    # Instagram = "xxoo"
-    Wechat = "https://i.loli.net/2019/02/17/5c697275d384d.jpg"  # Wechat QRcode image
-    # Facebook = "xxoo"
-    # Telegram = "xxoo"
-    # Dribbble = "xxoo"
-    # Medium = "xxoo"
-    
-[params.gitalk] # Github: https://github.com/gitalk/gitalk
-    clientID = "" # Your client ID
-    clientSecret = "" # Your client secret
-    repo = "" # The repo to store comments
-    owner = "" # Your GitHub ID
-    admin= "" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
-    id= "location.pathname" # The unique id of the page.
-    labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
-    perPage= 15 # Pagination size, with maximum 100.
-    pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually= false # If it is 'false', it is auto to make a Github issue when the administrators login.
-    distractionFreeMode= false # Enable hot key (cmd|ctrl + enter) submit comment.
+  linkToMarkdown = true                                  # whether to show link to Raw Markdown content of the post
+
+                                                      #### site verification code for Google/Bing/Yandex/Pinterest/Baidu
+  google_verification = ""
+  bing_verification = ""
+  yandex_verification = ""
+  pinterest_verification = ""
+  baidu_verification = ""
+
+  [params.cdn]                                       #### CSS and JS Files CDN
+    fontawesome_free_css = ''                           # for example '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.10.1/css/all.min.css" integrity="sha256-fdcFNFiBMrNfWL6OcAGQz6jDgNTRxnrLEd4vJYFWScE=" crossorigin="anonymous">'
+    animate_css = ''
+    gitalk_css = ''
+    gitalk_js = ''
+    valine_js = ''
+    jquery_js = ''
+    lazysizes_js = ''
+    smooth_scroll_js = ''
+    katex_css = ''
+    katex_js = ''
+    katex_auto_render_js = ''
+    mermaid_js = ''
+    echarts_js = ''
+    echarts_macarons_js = ''
+    typeit_js = ''
+    jquery_countdown_js = ''
+    aplayer_css = ''
+    aplayer_js = ''
+    meting_js = ''
+
+  [params.gravatar]                                      # Gravatar Info for preferred avatar in home page
+    email = ""
+
+  [params.social]                                        # Social Info in home page
+    # GitHub = "yikwing"
+    # Linkedin = "xxxx"
+    # Twitter = "xxxx"
+    #Instagram = "xxxx"
+    #Email = "xxxx"
+    # Facebook = "xxxx"
+    # Telegram = "xxxx"
+    #Medium = "xxxx"
+    #Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Deviantart = "xxxx"
+    #Behance = "xxxx"
+    #Dribble = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
+
+  [params.share]                                         # Social Share Links in post page
+    enable = true
+    Twitter = true
+    Facebook = true
+    Reddit = true
+    #Linkedin = true
+    #Pinterest = true
+    #HackerNews = true
+    #Mix = true
+    #Tumblr = true
+    #VKontakte = true
+    #Weibo = true
+
+  [params.publisher]                                     # Publisher Info just for SEO
+    name = "XXXX"
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]                                          # Website Log Info just for SEO
+    url = "logo.png"
+    width = 127
+    height = 40
+
+  [params.image]                                         # Website Image Info just for SEO
+    url = "cover.png"
+    width = 800
+    height = 600
+
+  [params.gitalk]                                        # Gittalk Comment Config (https://github.com/gitalk/gitalk)
+    owner = ""
+    repo = ""
+    clientId = ""
+    clientSecret = ""
+
+  [params.valine]                                        # Valine Comment Config (https://github.com/xCss/Valine)
+    enable = false
+    appId = ""
+    appKey = ""
+    notify = false
+    verify = true
+    avatar = "mp"
+    placeholder = "Your comment ..."
+    visitor = true
+    recordIP = true
+
+[privacy]                                             #### Privacy Info (https://gohugo.io/about/hugo-and-gdpr/)
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]                                          #### Options to make hugo output .md files.
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]                              #### Options to make hugo output .md files.
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]                                             #### Options to make hugo output .md files.
+  home = ["HTML", "RSS"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
