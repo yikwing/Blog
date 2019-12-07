@@ -3,12 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Go 优雅的单元测试 | LoveIt Theme</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>git 常用命令 | LoveIt Theme</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noodp" />
 <meta name="Description" content="LoveIt Theme Demo">
-<link rel="prev" href="https://example.com/2019/03/008/" />
-<link rel="next" href="https://example.com/2019/12/010/" />
-<link rel="canonical" href="https://example.com/2019/12/009/" />
+<link rel="prev" href="https://example.com/2019/12/009/" />
+<link rel="canonical" href="https://example.com/2019/12/010/" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -18,16 +17,16 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Go 优雅的单元测试"/>
-<meta name="twitter:description" content="单元测试"/>
+<meta name="twitter:title" content="git 常用命令"/>
+<meta name="twitter:description" content="Git 删除暂存区或版本库中的文件"/>
 <script type="application/ld+json">
     {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "Go 优雅的单元测试",
+    "headline": "git 常用命令",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https:\/\/example.com\/2019\/12\/009\/"
+        "@id": "https:\/\/example.com\/2019\/12\/010\/"
     },
     
         "image": {
@@ -39,15 +38,15 @@
     
     "genre": "posts",
     
-        "keywords": "go",
+        "keywords": "git",
     
-    "wordcount":  25 ,
-    "url": "https:\/\/example.com\/2019\/12\/009\/",
+    "wordcount":  59 ,
+    "url": "https:\/\/example.com\/2019\/12\/010\/",
     
-        "datePublished": "2019-12-07T10:08:24\x2b08:00",
+        "datePublished": "2019-12-07T11:39:15\x2b08:00",
     
     
-        "dateModified": "2019-12-07T10:08:24\x2b08:00",
+        "dateModified": "2019-12-07T11:39:15\x2b08:00",
     
     
         "license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
@@ -132,7 +131,7 @@
     
 
     <article class="post-warp">
-        <h1 class="post-title animated flipInX">Go 优雅的单元测试</h1>
+        <h1 class="post-title animated flipInX">git 常用命令</h1>
 
         <div class="post-meta">
             <div class="post-meta-main">
@@ -144,7 +143,7 @@
             </div>
             <div class="post-meta-other">
                 <i class="far fa-calendar-alt fa-fw"></i><time datetime=2019-12-07>2019-12-07</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 25 words&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 59 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
         </div>
 
@@ -178,50 +177,38 @@
             
             
             
-            <p>单元测试</p>
-<a class="post-dummy-target" id="heading"></a><h2>自带</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">test</span>
-</code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">test</span> <span class="o">-</span><span class="nx">v</span>
-</code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">test</span> <span class="o">-</span><span class="nx">cover</span> <span class="o">-</span><span class="nx">v</span>
-</code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">test</span> <span class="o">-</span><span class="nx">coverprofile</span><span class="p">=</span><span class="nx">size_coverage</span><span class="p">.</span><span class="nx">out</span>
-</code></pre></td></tr></table>
-</div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-go" data-lang="go"><span class="k">go</span> <span class="nx">tool</span> <span class="nx">cover</span> <span class="o">-</span><span class="nx">html</span><span class="p">=</span><span class="nx">size_coverage</span><span class="p">.</span><span class="nx">out</span>
-</code></pre></td></tr></table>
-</div>
-</div><a class="post-dummy-target" id="heading1"></a><h2>第三方</h2>
-<p>goconvey</p>
+            <p>Git 删除暂存区或版本库中的文件</p>
+<a class="post-dummy-target" id="1-"></a><h2>1. 基础</h2>
+<p>我们知道 Git 有三大区（工作区、暂存区、版本库）以及几个状态（<code>untracked</code>、<code>unstaged</code>、<code>uncommited</code>）。</p>
+<ol>
+<li>
+<p>打开你的项目文件夹，除了隐藏的.git 文件夹，其他项目文件位于的地方便是工作区，工作区的文件需要添加到 Git 的暂存区（git add），随后再提交到 Git 的版本库（git commit）。</p>
+</li>
+<li>
+<p>首次新建的文件都是 untracked 状态（未跟踪），此时需要 git add 到暂存区，Git 便会在暂存区中生成一个该文件的索引，文件此时处于 uncommited 状态，需要 git commit 生成版本库。添加到了版本库之后，再对文件进行修改，那么文件的状态会变为 unstaged 状态。</p>
+</li>
+</ol>
+<a class="post-dummy-target" id="2-"></a><h2>2. 删除错误添加到暂存区的文件</h2>
+<ol>
+<li>仅仅删除暂存区里的文件</li>
+</ol>
+<pre><code class="language-git" data-lang="git">git rm --cache 文件名
+</code></pre><ol start="2">
+<li>删除暂存区和工作区的文件</li>
+</ol>
+<pre><code class="language-git" data-lang="git">git rm -f 文件名
+</code></pre><a class="post-dummy-target" id="3--commit"></a><h2>3. 删除错误提交的 commit</h2>
+<pre><code class="language-git" data-lang="git">//仅仅只是撤销已提交的版本库，不会修改暂存区和工作区
+git reset --soft 版本库ID
+
+
+//仅仅只是撤销已提交的版本库和暂存区，不会修改工作区
+git reset --mixed 版本库ID
+
+
+//彻底将工作区、暂存区和版本库记录恢复到指定的版本库
+git reset --hard 版本库ID
+</code></pre>
         </div>
 
         <div class="post-footer" id="post-footer">
@@ -238,7 +225,7 @@
             <div class="post-info-md">
                 
                     
-                        <span><a class="link-to-markdown" href="https://example.com/2019/12/009/index.md" target="_blank"></a></span>
+                        <span><a class="link-to-markdown" href="https://example.com/2019/12/010/index.md" target="_blank"></a></span>
                     
                 
             </div>
@@ -246,17 +233,17 @@
                 
                     <span>
     
-        <a href="//twitter.com/share?url=https%3a%2f%2fexample.com%2f2019%2f12%2f009%2f&amp;text=Go%20%e4%bc%98%e9%9b%85%e7%9a%84%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95&amp;via=" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fexample.com%2f2019%2f12%2f010%2f&amp;text=git%20%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4&amp;via=" target="_blank" title="Share on Twitter">
             <i class="fab fa-twitter fa-fw"></i>
         </a>
     
     
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fexample.com%2f2019%2f12%2f009%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fexample.com%2f2019%2f12%2f010%2f" target="_blank" title="Share on Facebook">
             <i class="fab fa-facebook-square fa-fw"></i>
         </a>
     
     
-        <a href="//reddit.com/submit?url=https%3a%2f%2fexample.com%2f2019%2f12%2f009%2f&amp;title=Go%20%e4%bc%98%e9%9b%85%e7%9a%84%e5%8d%95%e5%85%83%e6%b5%8b%e8%af%95" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fexample.com%2f2019%2f12%2f010%2f&amp;title=git%20%e5%b8%b8%e7%94%a8%e5%91%bd%e4%bb%a4" target="_blank" title="Share on Reddit">
             <i class="fab fa-reddit fa-fw"></i>
         </a>
     
@@ -278,7 +265,7 @@
             
                 
                     <span class="tag">
-                        <a href="https://example.com/tags/go/"><i class="fas fa-tag fa-fw"></i>go</a>
+                        <a href="https://example.com/tags/git/"><i class="fas fa-tag fa-fw"></i>git</a>
                     </span>
                 
             
@@ -290,10 +277,8 @@
 
     <div class="post-nav">
         
-            <a href="https://example.com/2019/03/008/" class="prev" rel="prev" title="flutter Json快速实现序列化"><i class="fas fa-angle-left fa-fw"></i>flutter Json快速实现序列化</a>
+            <a href="https://example.com/2019/12/009/" class="prev" rel="prev" title="Go 优雅的单元测试"><i class="fas fa-angle-left fa-fw"></i>Go 优雅的单元测试</a>
         
-        
-            <a href="https://example.com/2019/12/010/" class="next" rel="next" title="git 常用命令">git 常用命令<i class="fas fa-angle-right fa-fw"></i></a>
         
     </div>
 </div>
