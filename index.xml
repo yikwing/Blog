@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>LoveIt Theme on LoveIt Theme</title>
-        <link>https://example.com/</link>
+        <link>https://yikwing.github.io/</link>
         <description>Recent content in LoveIt Theme on LoveIt Theme</description>
         <generator>Hugo -- gohugo.io</generator>
         
@@ -14,23 +14,23 @@
         
             <lastBuildDate>Sat, 07 Dec 2019 11:39:15 +0800</lastBuildDate>
         
-        <atom:link href="https://example.com/" rel="self" type="application/rss+xml" />
+        <atom:link href="https://yikwing.github.io/" rel="self" type="application/rss+xml" />
         
             <item>
                 <title>Posts</title>
-                <link>https://example.com/posts/</link>
+                <link>https://yikwing.github.io/posts/</link>
                 <pubDate>Sat, 07 Dec 2019 11:39:15 +0800</pubDate>
                 
-                <guid>https://example.com/posts/</guid>
+                <guid>https://yikwing.github.io/posts/</guid>
                 <description></description>
             </item>
         
             <item>
                 <title></title>
-                <link>https://example.com/about/</link>
+                <link>https://yikwing.github.io/about/</link>
                 <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
                 
-                <guid>https://example.com/about/</guid>
+                <guid>https://yikwing.github.io/about/</guid>
                 <description>&lt;h1 id=&#34;heading&#34;&gt;联系方式&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;姓名：荣毅&lt;/li&gt;
