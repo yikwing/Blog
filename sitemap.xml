@@ -3,7 +3,77 @@
         <url>
             <loc>https://example.com/categories/</loc>
             
-                <lastmod>2019-03-11T13:43:46+08:00</lastmod>
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://example.com/tags/go/</loc>
+            
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://example.com/2019/12/009/</loc>
+            
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://example.com/</loc>
+            
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://example.com/posts/</loc>
+            
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
+            
+            
+                <changefreq>weekly</changefreq>
+            
+            
+                <priority>0.5</priority>
+            
+            
+        </url>
+    
+        <url>
+            <loc>https://example.com/tags/</loc>
+            
+                <lastmod>2019-12-07T10:08:24+08:00</lastmod>
             
             
                 <changefreq>weekly</changefreq>
@@ -30,48 +100,6 @@
     
         <url>
             <loc>https://example.com/2019/03/008/</loc>
-            
-                <lastmod>2019-03-11T13:43:46+08:00</lastmod>
-            
-            
-                <changefreq>weekly</changefreq>
-            
-            
-                <priority>0.5</priority>
-            
-            
-        </url>
-    
-        <url>
-            <loc>https://example.com/</loc>
-            
-                <lastmod>2019-03-11T13:43:46+08:00</lastmod>
-            
-            
-                <changefreq>weekly</changefreq>
-            
-            
-                <priority>0.5</priority>
-            
-            
-        </url>
-    
-        <url>
-            <loc>https://example.com/posts/</loc>
-            
-                <lastmod>2019-03-11T13:43:46+08:00</lastmod>
-            
-            
-                <changefreq>weekly</changefreq>
-            
-            
-                <priority>0.5</priority>
-            
-            
-        </url>
-    
-        <url>
-            <loc>https://example.com/tags/</loc>
             
                 <lastmod>2019-03-11T13:43:46+08:00</lastmod>
             
